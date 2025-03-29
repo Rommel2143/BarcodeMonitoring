@@ -1,9 +1,10 @@
 ﻿Public Class create_model
-    Dim sql As String = "SELECT model AS MODEL FROM MODEL"
+    Dim sql As String = "SELECT model AS MODEL, assycode AS 'ASSY CODE' FROM MODEL"
     Private Sub btn_save_Click(sender As Object, e As EventArgs) Handles btn_save.Click
-        InsertData(txt_model.Text)
+        InsertData(txt_model.Text, txt_assycode.Text)
         reload(sql, datagrid1)
         txt_model.Clear()
+        txt_assycode.Clear()
     End Sub
 
     Private Sub create_model_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -45,5 +46,9 @@
                 End Try
             End If
         End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 End Class

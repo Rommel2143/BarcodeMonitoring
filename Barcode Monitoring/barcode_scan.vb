@@ -63,8 +63,32 @@ Public Class barcode_scan
     End Sub
 
     Private Sub cmb_model_Click(sender As Object, e As EventArgs) Handles cmb_model.Click
-        cmb_display("SELECT model FROM MODEL", cmb_model)
+        cmb_display("SELECT CONCAT( model,' : ',assycode )FROM MODEL", cmb_model)
     End Sub
+
+    Private Function checkcode(text As String) As Boolean
+        Dim str As String = cmb_model.Text
+
+        ' Ensure the text contains " : " before splitting
+        If str.Contains(" : ") Then
+            Dim parts() As String = str.Split(":"c)
+
+            If parts.Length > 1 Then
+                Dim extractedCode As String = parts(1).Trim() ' Get the substring after " : "
+                Dim charCount As Integer = extractedCode.Length ' Count characters in extractedCode
+
+                ' Ensure text matches extractedCode exactly
+                If text.Substring(0, charCount).Trim() = extractedCode Then
+                    Return True
+                Else
+                    MessageBox.Show("Invalid Serial", "Error Scanning", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    Return False
+                End If
+            End If
+        End If
+
+        Return False
+    End Function
 
     Private Sub txt_model_TextChanged(sender As Object, e As EventArgs) Handles txt_sc.TextChanged
 
@@ -73,27 +97,32 @@ Public Class barcode_scan
     Private Sub process_sc()
 
         If txt_crcis.Enabled = True Then
+
             txt_crcis.Clear()
-            txt_crcis.Focus()
+                txt_crcis.Focus()
+
 
         Else
-            process_crcis()
+                process_crcis()
         End If
 
     End Sub
     Private Sub process_crcis()
 
         If txt_cism.Enabled = True Then
+
             txt_cism.Clear()
-            txt_cism.Focus()
+                txt_cism.Focus()
+
         Else
-            process_cism()
+                process_cism()
         End If
     End Sub
 
     Private Sub process_cism()
-
-        Insertbarcode(getshift, cmb_model.Text.ToUpper, txt_sc.Text.Trim.ToUpper, txt_crcis.Text.Trim.ToUpper, txt_cism.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
+        Dim str As String = cmb_model.Text
+        Dim parts() As String = Str.Split(":"c)
+        Insertbarcode(getshift, parts(0).Trim().ToUpper, txt_sc.Text.Trim.ToUpper, txt_crcis.Text.Trim.ToUpper, txt_cism.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
         reload(reloadsql, datagrid1)
         cleartext()
         If txt_sc.Enabled = True Then
@@ -107,7 +136,10 @@ Public Class barcode_scan
 
     Private Sub txt_model_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_sc.KeyDown
         If e.KeyCode = Keys.Enter Then
-            process_sc()
+            If checkcode(txt_sc.Text.Trim.ToUpper) Then
+
+                process_sc()
+            End If
         End If
     End Sub
 
@@ -116,15 +148,18 @@ Public Class barcode_scan
 
     Private Sub txt_crcis_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_crcis.KeyDown
         If e.KeyCode = Keys.Enter Then
-            process_crcis()
+            If checkcode(txt_crcis.Text.Trim.ToUpper) Then
+                process_crcis()
+            End If
         End If
     End Sub
 
 
     Private Sub txt_cism_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_cism.KeyDown
         If e.KeyCode = Keys.Enter Then
-            process_cism()
-
+            If checkcode(txt_cism.Text.Trim.ToUpper) Then
+                process_cism()
+            End If
         End If
     End Sub
     Private Sub cleartext()

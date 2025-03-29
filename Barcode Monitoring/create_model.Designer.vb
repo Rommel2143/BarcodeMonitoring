@@ -31,6 +31,9 @@ Partial Class create_model
         Me.datagrid1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.txt_assycode = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.datagrid1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -44,7 +47,7 @@ Partial Class create_model
         Me.btn_save.FillColor = System.Drawing.Color.MidnightBlue
         Me.btn_save.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.btn_save.ForeColor = System.Drawing.Color.White
-        Me.btn_save.Location = New System.Drawing.Point(326, 48)
+        Me.btn_save.Location = New System.Drawing.Point(431, 81)
         Me.btn_save.Name = "btn_save"
         Me.btn_save.Size = New System.Drawing.Size(96, 36)
         Me.btn_save.TabIndex = 0
@@ -62,11 +65,11 @@ Partial Class create_model
         Me.txt_model.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_model.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txt_model.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txt_model.Location = New System.Drawing.Point(25, 48)
+        Me.txt_model.Location = New System.Drawing.Point(29, 81)
         Me.txt_model.Name = "txt_model"
         Me.txt_model.PlaceholderText = "Input Model Name..."
         Me.txt_model.SelectedText = ""
-        Me.txt_model.Size = New System.Drawing.Size(298, 36)
+        Me.txt_model.Size = New System.Drawing.Size(273, 36)
         Me.txt_model.TabIndex = 1
         '
         'datagrid1
@@ -99,7 +102,7 @@ Partial Class create_model
         DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.datagrid1.DefaultCellStyle = DataGridViewCellStyle7
         Me.datagrid1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.datagrid1.Location = New System.Drawing.Point(25, 90)
+        Me.datagrid1.Location = New System.Drawing.Point(29, 123)
         Me.datagrid1.Name = "datagrid1"
         Me.datagrid1.ReadOnly = True
         Me.datagrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
@@ -113,7 +116,7 @@ Partial Class create_model
         Me.datagrid1.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.datagrid1.RowHeadersVisible = False
         Me.datagrid1.RowTemplate.Height = 29
-        Me.datagrid1.Size = New System.Drawing.Size(295, 267)
+        Me.datagrid1.Size = New System.Drawing.Size(396, 314)
         Me.datagrid1.TabIndex = 2
         Me.datagrid1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.datagrid1.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -147,7 +150,7 @@ Partial Class create_model
         Me.Guna2Button1.FillColor = System.Drawing.Color.MidnightBlue
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(326, 139)
+        Me.Guna2Button1.Location = New System.Drawing.Point(431, 123)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.Size = New System.Drawing.Size(96, 36)
         Me.Guna2Button1.TabIndex = 3
@@ -158,17 +161,61 @@ Partial Class create_model
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DimGray
-        Me.Label1.Location = New System.Drawing.Point(25, 25)
+        Me.Label1.Location = New System.Drawing.Point(25, 22)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 20)
+        Me.Label1.Size = New System.Drawing.Size(110, 20)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Input Model"
+        Me.Label1.Text = "Manage Model"
+        '
+        'txt_assycode
+        '
+        Me.txt_assycode.BorderRadius = 3
+        Me.txt_assycode.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_assycode.DefaultText = ""
+        Me.txt_assycode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txt_assycode.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txt_assycode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_assycode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_assycode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_assycode.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txt_assycode.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_assycode.Location = New System.Drawing.Point(319, 81)
+        Me.txt_assycode.Name = "txt_assycode"
+        Me.txt_assycode.PlaceholderText = "Input code..."
+        Me.txt_assycode.SelectedText = ""
+        Me.txt_assycode.Size = New System.Drawing.Size(106, 36)
+        Me.txt_assycode.TabIndex = 5
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DimGray
+        Me.Label2.Location = New System.Drawing.Point(26, 61)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(46, 17)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Model"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DimGray
+        Me.Label3.Location = New System.Drawing.Point(316, 61)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(67, 17)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Assy code"
         '
         'create_model
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(439, 389)
+        Me.ClientSize = New System.Drawing.Size(564, 461)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.txt_assycode)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Guna2Button1)
         Me.Controls.Add(Me.datagrid1)
@@ -187,4 +234,7 @@ Partial Class create_model
     Friend WithEvents datagrid1 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents txt_assycode As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class
