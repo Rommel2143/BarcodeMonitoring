@@ -2,6 +2,8 @@
 Public Class barcode_scan
 
     Dim reloadsql As String = "SELECT  model AS MODEL,SC,CRCIS,CISM FROM barcodes WHERE datein ='" & Date.Now.ToString("yyyy-MM-dd") & "' ORDER BY id DESC"
+
+    Dim reloadfvi As String = "SELECT  model AS MODEL,FVI FROM barcodes_fvi WHERE datein ='" & Date.Now.ToString("yyyy-MM-dd") & "' ORDER BY id DESC"
     Private Function getshift() As String
         Dim currentTime As DateTime = DateTime.Now
         Dim startDayShift As DateTime = currentTime.Date.AddHours(7)  ' 7:00 AM
@@ -19,13 +21,13 @@ Public Class barcode_scan
 
         lbl_date.Text = "DATE : " & Date.Now.ToString("MMMM dd, yyyy")
         lbl_shift.Text = "SHIFT : " & getshift()
-        reload(reloadsql, datagrid1)
+
         lbl_line.Text = getLine()
         getSet()
         Timer1.Start()
     End Sub
     Public Sub getSet()
-        Dim sql As String = "SELECT SC,CRCIS,CISM FROM input_set"
+        Dim sql As String = "SELECT SC,CRCIS,CISM,FVI FROM input_set"
         Try
             con.Close()
             con.Open()
@@ -35,6 +37,7 @@ Public Class barcode_scan
                         txt_sc.Enabled = Convert.ToBoolean(dr("SC"))
                         txt_crcis.Enabled = Convert.ToBoolean(dr("CRCIS"))
                         txt_cism.Enabled = Convert.ToBoolean(dr("CISM"))
+                        txt_fvi.Enabled = Convert.ToBoolean(dr("FVI"))
                     Else
 
                     End If
@@ -67,27 +70,34 @@ Public Class barcode_scan
     End Sub
 
     Private Function checkcode(text As String) As Boolean
-        Dim str As String = cmb_model.Text
+        Try
 
-        ' Ensure the text contains " : " before splitting
-        If str.Contains(" : ") Then
-            Dim parts() As String = str.Split(":"c)
 
-            If parts.Length > 1 Then
-                Dim extractedCode As String = parts(1).Trim() ' Get the substring after " : "
-                Dim charCount As Integer = extractedCode.Length ' Count characters in extractedCode
+            Dim str As String = cmb_model.Text
 
-                ' Ensure text matches extractedCode exactly
-                If text.Substring(0, charCount).Trim() = extractedCode Then
-                    Return True
-                Else
-                    MessageBox.Show("Invalid Serial", "Error Scanning", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                    Return False
+            ' Ensure the text contains " : " before splitting
+            If str.Contains(" : ") Then
+                Dim parts() As String = str.Split(":"c)
+
+                If parts.Length > 1 Then
+                    Dim extractedCode As String = parts(1).Trim() ' Get the substring after " : "
+                    Dim charCount As Integer = extractedCode.Length ' Count characters in extractedCode
+
+                    ' Ensure text matches extractedCode exactly
+                    If text.Substring(0, charCount).Trim() = extractedCode Then
+                        Return True
+                    Else
+                        MessageBox.Show("Invalid Serial", "Error Scanning", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        Return False
+                    End If
                 End If
             End If
-        End If
 
-        Return False
+            Return False
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+            Return False
+        End Try
     End Function
 
     Private Sub txt_model_TextChanged(sender As Object, e As EventArgs) Handles txt_sc.TextChanged
@@ -170,11 +180,23 @@ Public Class barcode_scan
 
 
 
-    Private Sub datagrid1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles datagrid1.CellContentClick
+
+    Private Sub txt_fvi_TextChanged(sender As Object, e As EventArgs) Handles txt_fvi.TextChanged
 
     End Sub
 
-    Private Sub panel_chk_Paint(sender As Object, e As PaintEventArgs) Handles panel_chk.Paint
+    Private Sub txt_fvi_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_fvi.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            If checkcode(txt_fvi.Text.Trim.ToUpper) Then
+                Dim str As String = cmb_model.Text
+                Dim parts() As String = str.Split(":"c)
+                InsertbarcodeFVI(getshift, parts(0).Trim().ToUpper, txt_fvi.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
+                reload(reloadfvi, datagrid1)
+                txt_fvi.Clear()
+                txt_fvi.Focus()
+
+            End If
+        End If
 
     End Sub
 End Class

@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SQLite
 Module dbconn
-    Public con As New SQLiteConnection("Data Source=D:\Barcode Monitoring\database.db;Version=3;")
+    Public con As New SQLiteConnection("Data Source=" & Application.StartupPath & "\database.db;Version=3;")
+
 
     Public da As New SQLiteDataAdapter
     Public dr As SQLiteDataReader
@@ -162,7 +163,45 @@ Module dbconn
     End Sub
 
 
+    Public Sub InsertbarcodeFVI(shift As String, model As String, fvi As String, name As String, line As String)
+        Try
+            Dim sqlCheck As String = "SELECT COUNT(*) FROM barcodes_fvi WHERE FVI = @FVI;"
+            Dim sqlInsert As String = "INSERT INTO barcodes_fvi (datein, shift, model, FVI, Name, line, timein,judgement,remarks) VALUES (@datein, @shift, @model, @FVI, @Name, @line, @timein,'G','');"
 
+            con.Close()
+            con.Open()
+
+            ' Check for duplicates
+            Using cmdCheck As New SQLiteCommand(sqlCheck, con)
+                cmdCheck.Parameters.AddWithValue("@FVI", fvi)
+
+                Dim count As Integer = Convert.ToInt32(cmdCheck.ExecuteScalar())
+                If count > 0 Then
+                    MessageBox.Show("Duplicate record found! Insertion canceled.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                    Exit Sub
+                End If
+            End Using
+
+            ' Insert if no duplicate
+            Using cmdInsert As New SQLiteCommand(sqlInsert, con)
+                cmdInsert.Parameters.AddWithValue("@datein", Date.Now.ToString("yyyy-MM-dd"))
+                cmdInsert.Parameters.AddWithValue("@shift", shift)
+                cmdInsert.Parameters.AddWithValue("@model", model)
+
+                cmdInsert.Parameters.AddWithValue("@FVI", fvi)
+                cmdInsert.Parameters.AddWithValue("@Name", name)
+                cmdInsert.Parameters.AddWithValue("@line", line)
+                cmdInsert.Parameters.AddWithValue("@timein", Date.Now.ToString("HH:mm"))
+
+                cmdInsert.ExecuteNonQuery()
+            End Using
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            con.Close()
+        End Try
+    End Sub
 
 
     Public Sub reload(ByVal sql As String, ByVal datagrid As DataGridView)

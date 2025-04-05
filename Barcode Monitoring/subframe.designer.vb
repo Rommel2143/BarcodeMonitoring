@@ -34,9 +34,9 @@ Partial Class subframe
         Me.StockMonitoringToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LineToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InputToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.btn_profile = New Guna.UI2.WinForms.Guna2Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.InputToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.btnmenu_strip.SuspendLayout()
@@ -122,14 +122,20 @@ Partial Class subframe
         'ModelToolStripMenuItem
         '
         Me.ModelToolStripMenuItem.Name = "ModelToolStripMenuItem"
-        Me.ModelToolStripMenuItem.Size = New System.Drawing.Size(180, 26)
+        Me.ModelToolStripMenuItem.Size = New System.Drawing.Size(142, 26)
         Me.ModelToolStripMenuItem.Text = "Model"
         '
         'LineToolStripMenuItem
         '
         Me.LineToolStripMenuItem.Name = "LineToolStripMenuItem"
-        Me.LineToolStripMenuItem.Size = New System.Drawing.Size(180, 26)
+        Me.LineToolStripMenuItem.Size = New System.Drawing.Size(142, 26)
         Me.LineToolStripMenuItem.Text = "Line"
+        '
+        'InputToolStripMenuItem
+        '
+        Me.InputToolStripMenuItem.Name = "InputToolStripMenuItem"
+        Me.InputToolStripMenuItem.Size = New System.Drawing.Size(142, 26)
+        Me.InputToolStripMenuItem.Text = "Set Input"
         '
         'btn_profile
         '
@@ -150,12 +156,6 @@ Partial Class subframe
         Me.btn_profile.TabIndex = 2
         Me.ToolTip1.SetToolTip(Me.btn_profile, "Profile")
         Me.btn_profile.UseTransparentBackground = True
-        '
-        'InputToolStripMenuItem
-        '
-        Me.InputToolStripMenuItem.Name = "InputToolStripMenuItem"
-        Me.InputToolStripMenuItem.Size = New System.Drawing.Size(180, 26)
-        Me.InputToolStripMenuItem.Text = "Set Input"
         '
         'subframe
         '
