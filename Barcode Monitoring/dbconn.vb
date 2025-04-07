@@ -12,14 +12,18 @@ Module dbconn
 
 
 
-    Public Sub InsertData(text As String, code As String)
+    Public Sub InsertData(text As String, sc As String, crcis As String, cism As String, adf As String, fvi As String)
         Try
-            Dim sql As String = "INSERT INTO model (model,assycode) VALUES ( @model,@assycode);"
+            Dim sql As String = "INSERT INTO model (model,sc,crcis,cism,adf,fvi) VALUES ( @model,@sc,@crcis,@cism,@adf,@fvi);"
             con.Close()
             con.Open()
             Using cmd As New SQLiteCommand(sql, con)
                 cmd.Parameters.AddWithValue("@model", text)
-                cmd.Parameters.AddWithValue("@assycode", code)
+                cmd.Parameters.AddWithValue("@sc", sc)
+                cmd.Parameters.AddWithValue("@crcis", crcis)
+                cmd.Parameters.AddWithValue("@cism", cism)
+                cmd.Parameters.AddWithValue("@adf", adf)
+                cmd.Parameters.AddWithValue("@fvi", fvi)
                 cmd.ExecuteNonQuery()
                 MessageBox.Show(text & " Added Sucessfully!")
             End Using

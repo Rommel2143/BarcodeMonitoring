@@ -1,10 +1,14 @@
 ﻿Public Class create_model
-    Dim sql As String = "SELECT model AS MODEL, assycode AS 'ASSY CODE' FROM MODEL"
+    Dim sql As String = "SELECT model AS MODEL, sc,crcis,cism,adf,fvi  FROM MODEL"
     Private Sub btn_save_Click(sender As Object, e As EventArgs) Handles btn_save.Click
-        InsertData(txt_model.Text, txt_assycode.Text)
+        InsertData(txt_model.Text, txt_sc.Text.Trim.ToUpper, txt_crcis.Text.Trim.ToUpper, txt_cism.Text.Trim.ToUpper, txt_adf.Text.Trim.ToUpper, txt_fvi.Text.Trim.ToUpper)
         reload(sql, datagrid1)
         txt_model.Clear()
-        txt_assycode.Clear()
+        txt_sc.Clear()
+        txt_crcis.Clear()
+        txt_cism.Clear()
+        txt_adf.Clear()
+        txt_fvi.Clear()
     End Sub
 
     Private Sub create_model_Load(sender As Object, e As EventArgs) Handles MyBase.Load

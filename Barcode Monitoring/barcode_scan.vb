@@ -66,39 +66,32 @@ Public Class barcode_scan
     End Sub
 
     Private Sub cmb_model_Click(sender As Object, e As EventArgs) Handles cmb_model.Click
-        cmb_display("SELECT CONCAT( model,' : ',assycode )FROM MODEL", cmb_model)
+        cmb_display("SELECT CONCAT( model)FROM MODEL", cmb_model)
     End Sub
 
-    Private Function checkcode(text As String) As Boolean
+    Private Function checkcode(text As String, column As String, number As Integer) As Boolean
+
+
         Try
+            Dim sql As String = "SELECT id FROM MODEL WHERE " & column & " LIKE @text"
 
+            con.Close()
+            con.Open()
 
-            Dim str As String = cmb_model.Text
+            Using cmd As New SQLiteCommand(sql, con)
+                cmd.Parameters.AddWithValue("@text", "%" + text.Substring(0, number) + "%")
+                Using dr As SQLiteDataReader = cmd.ExecuteReader()
+                    Return dr.HasRows
+                End Using
+            End Using
 
-            ' Ensure the text contains " : " before splitting
-            If str.Contains(" : ") Then
-                Dim parts() As String = str.Split(":"c)
-
-                If parts.Length > 1 Then
-                    Dim extractedCode As String = parts(1).Trim() ' Get the substring after " : "
-                    Dim charCount As Integer = extractedCode.Length ' Count characters in extractedCode
-
-                    ' Ensure text matches extractedCode exactly
-                    If text.Substring(0, charCount).Trim() = extractedCode Then
-                        Return True
-                    Else
-                        MessageBox.Show("Invalid Serial", "Error Scanning", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                        Return False
-                    End If
-                End If
-            End If
-
-            Return False
         Catch ex As Exception
             MessageBox.Show(ex.Message)
             Return False
         End Try
     End Function
+
+
 
     Private Sub txt_model_TextChanged(sender As Object, e As EventArgs) Handles txt_sc.TextChanged
 
@@ -146,9 +139,11 @@ Public Class barcode_scan
 
     Private Sub txt_model_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_sc.KeyDown
         If e.KeyCode = Keys.Enter Then
-            If checkcode(txt_sc.Text.Trim.ToUpper) Then
+            If checkcode(txt_sc.Text.Trim.ToUpper, "SC", 3) = True Then
 
                 process_sc()
+            Else
+                MessageBox.Show("Invalid QR")
             End If
         End If
     End Sub
@@ -158,8 +153,10 @@ Public Class barcode_scan
 
     Private Sub txt_crcis_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_crcis.KeyDown
         If e.KeyCode = Keys.Enter Then
-            If checkcode(txt_crcis.Text.Trim.ToUpper) Then
+            If checkcode(txt_crcis.Text.Trim.ToUpper, "crcis", 2) = True Then
                 process_crcis()
+            Else
+                MessageBox.Show("Invalid QR")
             End If
         End If
     End Sub
@@ -167,8 +164,10 @@ Public Class barcode_scan
 
     Private Sub txt_cism_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_cism.KeyDown
         If e.KeyCode = Keys.Enter Then
-            If checkcode(txt_cism.Text.Trim.ToUpper) Then
+            If checkcode(txt_cism.Text.Trim.ToUpper, "cism", 3) = True Then
                 process_cism()
+            Else
+                MessageBox.Show("Invalid QR")
             End If
         End If
     End Sub
@@ -187,14 +186,15 @@ Public Class barcode_scan
 
     Private Sub txt_fvi_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_fvi.KeyDown
         If e.KeyCode = Keys.Enter Then
-            If checkcode(txt_fvi.Text.Trim.ToUpper) Then
+            If checkcode(txt_fvi.Text.Trim.ToUpper, "fvi", 3) = True Then
                 Dim str As String = cmb_model.Text
                 Dim parts() As String = str.Split(":"c)
                 InsertbarcodeFVI(getshift, parts(0).Trim().ToUpper, txt_fvi.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
                 reload(reloadfvi, datagrid1)
                 txt_fvi.Clear()
                 txt_fvi.Focus()
-
+            Else
+                MessageBox.Show("Invalid QR")
             End If
         End If
 
