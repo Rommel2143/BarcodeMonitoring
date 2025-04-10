@@ -27,8 +27,11 @@ Partial Class viewrecords
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2VSeparator2 = New Guna.UI2.WinForms.Guna2VSeparator()
+        Me.rad_sc = New Guna.UI2.WinForms.Guna2RadioButton()
+        Me.rad_fvi = New Guna.UI2.WinForms.Guna2RadioButton()
         Me.btnsavechanges = New Guna.UI2.WinForms.Guna2Button()
-        Me.chk_fvi = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -42,13 +45,14 @@ Partial Class viewrecords
         Me.dtpicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.datagrid1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Guna2Panel2.SuspendLayout()
+        Me.Guna2Panel1.SuspendLayout()
         CType(Me.datagrid1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Panel2
         '
+        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel1)
         Me.Guna2Panel2.Controls.Add(Me.btnsavechanges)
-        Me.Guna2Panel2.Controls.Add(Me.chk_fvi)
         Me.Guna2Panel2.Controls.Add(Me.Guna2Button2)
         Me.Guna2Panel2.Controls.Add(Me.Label11)
         Me.Guna2Panel2.Controls.Add(Me.Label10)
@@ -65,6 +69,72 @@ Partial Class viewrecords
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(1015, 242)
         Me.Guna2Panel2.TabIndex = 3
+        '
+        'Guna2Panel1
+        '
+        Me.Guna2Panel1.BorderColor = System.Drawing.Color.DimGray
+        Me.Guna2Panel1.BorderRadius = 3
+        Me.Guna2Panel1.BorderThickness = 1
+        Me.Guna2Panel1.Controls.Add(Me.Guna2VSeparator2)
+        Me.Guna2Panel1.Controls.Add(Me.rad_sc)
+        Me.Guna2Panel1.Controls.Add(Me.rad_fvi)
+        Me.Guna2Panel1.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel1.Location = New System.Drawing.Point(20, 22)
+        Me.Guna2Panel1.Name = "Guna2Panel1"
+        Me.Guna2Panel1.Size = New System.Drawing.Size(353, 53)
+        Me.Guna2Panel1.TabIndex = 31
+        '
+        'Guna2VSeparator2
+        '
+        Me.Guna2VSeparator2.BackColor = System.Drawing.Color.White
+        Me.Guna2VSeparator2.Location = New System.Drawing.Point(213, 8)
+        Me.Guna2VSeparator2.Name = "Guna2VSeparator2"
+        Me.Guna2VSeparator2.Size = New System.Drawing.Size(8, 31)
+        Me.Guna2VSeparator2.TabIndex = 32
+        '
+        'rad_sc
+        '
+        Me.rad_sc.AutoSize = True
+        Me.rad_sc.BackColor = System.Drawing.Color.White
+        Me.rad_sc.Checked = True
+        Me.rad_sc.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rad_sc.CheckedState.BorderThickness = 0
+        Me.rad_sc.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rad_sc.CheckedState.InnerColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rad_sc.CheckedState.InnerOffset = -4
+        Me.rad_sc.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.rad_sc.Location = New System.Drawing.Point(20, 14)
+        Me.rad_sc.Name = "rad_sc"
+        Me.rad_sc.Size = New System.Drawing.Size(177, 25)
+        Me.rad_sc.TabIndex = 30
+        Me.rad_sc.TabStop = True
+        Me.rad_sc.Text = "SC, CRCIS, CISM, ADF"
+        Me.rad_sc.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.rad_sc.UncheckedState.BorderThickness = 2
+        Me.rad_sc.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.rad_sc.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.rad_sc.UseVisualStyleBackColor = False
+        '
+        'rad_fvi
+        '
+        Me.rad_fvi.AutoSize = True
+        Me.rad_fvi.BackColor = System.Drawing.Color.White
+        Me.rad_fvi.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rad_fvi.CheckedState.BorderThickness = 0
+        Me.rad_fvi.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rad_fvi.CheckedState.InnerColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rad_fvi.CheckedState.InnerOffset = -4
+        Me.rad_fvi.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.rad_fvi.Location = New System.Drawing.Point(263, 14)
+        Me.rad_fvi.Name = "rad_fvi"
+        Me.rad_fvi.Size = New System.Drawing.Size(50, 25)
+        Me.rad_fvi.TabIndex = 28
+        Me.rad_fvi.Text = "FVI"
+        Me.rad_fvi.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.rad_fvi.UncheckedState.BorderThickness = 2
+        Me.rad_fvi.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.rad_fvi.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.rad_fvi.UseVisualStyleBackColor = False
         '
         'btnsavechanges
         '
@@ -83,24 +153,6 @@ Partial Class viewrecords
         Me.btnsavechanges.TabIndex = 26
         Me.btnsavechanges.Text = "Save Changes"
         '
-        'chk_fvi
-        '
-        Me.chk_fvi.AutoSize = True
-        Me.chk_fvi.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.chk_fvi.CheckedState.BorderRadius = 0
-        Me.chk_fvi.CheckedState.BorderThickness = 0
-        Me.chk_fvi.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.chk_fvi.Font = New System.Drawing.Font("Segoe UI Semibold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chk_fvi.Location = New System.Drawing.Point(25, 30)
-        Me.chk_fvi.Name = "chk_fvi"
-        Me.chk_fvi.Size = New System.Drawing.Size(61, 24)
-        Me.chk_fvi.TabIndex = 25
-        Me.chk_fvi.Text = "FVI ?"
-        Me.chk_fvi.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
-        Me.chk_fvi.UncheckedState.BorderRadius = 0
-        Me.chk_fvi.UncheckedState.BorderThickness = 0
-        Me.chk_fvi.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
-        '
         'Guna2Button2
         '
         Me.Guna2Button2.BorderRadius = 3
@@ -111,7 +163,7 @@ Partial Class viewrecords
         Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(644, 102)
+        Me.Guna2Button2.Location = New System.Drawing.Point(644, 117)
         Me.Guna2Button2.Name = "Guna2Button2"
         Me.Guna2Button2.Size = New System.Drawing.Size(96, 36)
         Me.Guna2Button2.TabIndex = 24
@@ -122,7 +174,7 @@ Partial Class viewrecords
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.DimGray
-        Me.Label11.Location = New System.Drawing.Point(299, 77)
+        Me.Label11.Location = New System.Drawing.Point(299, 92)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(74, 17)
         Me.Label11.TabIndex = 23
@@ -133,7 +185,7 @@ Partial Class viewrecords
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.DimGray
-        Me.Label10.Location = New System.Drawing.Point(22, 164)
+        Me.Label10.Location = New System.Drawing.Point(22, 179)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(22, 17)
         Me.Label10.TabIndex = 22
@@ -144,7 +196,7 @@ Partial Class viewrecords
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.DimGray
-        Me.Label9.Location = New System.Drawing.Point(22, 112)
+        Me.Label9.Location = New System.Drawing.Point(22, 127)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(38, 17)
         Me.Label9.TabIndex = 21
@@ -159,7 +211,7 @@ Partial Class viewrecords
         Me.dtpicker2.FillColor = System.Drawing.Color.White
         Me.dtpicker2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.dtpicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.dtpicker2.Location = New System.Drawing.Point(66, 155)
+        Me.dtpicker2.Location = New System.Drawing.Point(66, 170)
         Me.dtpicker2.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Me.dtpicker2.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.dtpicker2.Name = "dtpicker2"
@@ -177,7 +229,7 @@ Partial Class viewrecords
         Me.Guna2Button1.FillColor = System.Drawing.Color.MidnightBlue
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(644, 144)
+        Me.Guna2Button1.Location = New System.Drawing.Point(644, 159)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.Size = New System.Drawing.Size(96, 47)
         Me.Guna2Button1.TabIndex = 19
@@ -185,6 +237,7 @@ Partial Class viewrecords
         '
         'txt_search
         '
+        Me.txt_search.BorderColor = System.Drawing.Color.DimGray
         Me.txt_search.BorderRadius = 3
         Me.txt_search.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txt_search.DefaultText = ""
@@ -195,7 +248,7 @@ Partial Class viewrecords
         Me.txt_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_search.Font = New System.Drawing.Font("Segoe UI", 11.25!)
         Me.txt_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txt_search.Location = New System.Drawing.Point(316, 144)
+        Me.txt_search.Location = New System.Drawing.Point(316, 159)
         Me.txt_search.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txt_search.Name = "txt_search"
         Me.txt_search.PlaceholderText = "Input Keywords..."
@@ -208,7 +261,7 @@ Partial Class viewrecords
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.DimGray
-        Me.Label7.Location = New System.Drawing.Point(313, 121)
+        Me.Label7.Location = New System.Drawing.Point(313, 136)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(167, 17)
         Me.Label7.TabIndex = 16
@@ -216,7 +269,7 @@ Partial Class viewrecords
         '
         'Guna2VSeparator1
         '
-        Me.Guna2VSeparator1.Location = New System.Drawing.Point(283, 71)
+        Me.Guna2VSeparator1.Location = New System.Drawing.Point(283, 86)
         Me.Guna2VSeparator1.Name = "Guna2VSeparator1"
         Me.Guna2VSeparator1.Size = New System.Drawing.Size(10, 135)
         Me.Guna2VSeparator1.TabIndex = 14
@@ -226,7 +279,7 @@ Partial Class viewrecords
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.DimGray
-        Me.Label5.Location = New System.Drawing.Point(22, 77)
+        Me.Label5.Location = New System.Drawing.Point(22, 92)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(105, 17)
         Me.Label5.TabIndex = 12
@@ -241,7 +294,7 @@ Partial Class viewrecords
         Me.dtpicker1.FillColor = System.Drawing.Color.White
         Me.dtpicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.dtpicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.dtpicker1.Location = New System.Drawing.Point(66, 102)
+        Me.dtpicker1.Location = New System.Drawing.Point(66, 117)
         Me.dtpicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Me.dtpicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.dtpicker1.Name = "dtpicker1"
@@ -329,6 +382,8 @@ Partial Class viewrecords
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
+        Me.Guna2Panel1.ResumeLayout(False)
+        Me.Guna2Panel1.PerformLayout()
         CType(Me.datagrid1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -347,6 +402,9 @@ Partial Class viewrecords
     Friend WithEvents Label5 As Label
     Friend WithEvents dtpicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents datagrid1 As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents chk_fvi As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents btnsavechanges As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents rad_sc As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents rad_fvi As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents Guna2VSeparator2 As Guna.UI2.WinForms.Guna2VSeparator
 End Class

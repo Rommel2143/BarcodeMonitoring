@@ -1,9 +1,10 @@
 ﻿Imports System.Data.SQLite
 Public Class barcode_scan
 
-    Dim reloadsql As String = "SELECT  model AS MODEL,SC,CRCIS,CISM FROM barcodes WHERE datein ='" & Date.Now.ToString("yyyy-MM-dd") & "' ORDER BY id DESC"
+    Dim reloadsql As String = "SELECT  model AS MODEL,SC,CRCIS,CISM,ADF FROM barcodes WHERE datein ='" & Date.Now.ToString("yyyy-MM-dd") & "' ORDER BY id DESC"
 
     Dim reloadfvi As String = "SELECT  model AS MODEL,FVI FROM barcodes_fvi WHERE datein ='" & Date.Now.ToString("yyyy-MM-dd") & "' ORDER BY id DESC"
+    Dim reloadadf As String = "SELECT  model AS MODEL,adf FROM barcodes_adf WHERE datein ='" & Date.Now.ToString("yyyy-MM-dd") & "' ORDER BY id DESC"
     Private Function getshift() As String
         Dim currentTime As DateTime = DateTime.Now
         Dim startDayShift As DateTime = currentTime.Date.AddHours(7)  ' 7:00 AM
@@ -16,6 +17,15 @@ Public Class barcode_scan
         End If
     End Function
 
+    Sub totalToday()
+        Dim rowCount As Integer = datagrid1.Rows.Count
+
+        ' If you want to exclude the last empty row (when AllowUserToAddRows is True)
+        If datagrid1.AllowUserToAddRows Then
+            rowCount -= 1
+        End If
+        lbl_total.Text = "Total inspected today : " & rowCount
+    End Sub
 
     Private Sub barcode_scan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -27,7 +37,7 @@ Public Class barcode_scan
         Timer1.Start()
     End Sub
     Public Sub getSet()
-        Dim sql As String = "SELECT SC,CRCIS,CISM,FVI FROM input_set"
+        Dim sql As String = "SELECT SC,CRCIS,CISM,FVI,ADF FROM input_set"
         Try
             con.Close()
             con.Open()
@@ -38,6 +48,7 @@ Public Class barcode_scan
                         txt_crcis.Enabled = Convert.ToBoolean(dr("CRCIS"))
                         txt_cism.Enabled = Convert.ToBoolean(dr("CISM"))
                         txt_fvi.Enabled = Convert.ToBoolean(dr("FVI"))
+                        txt_adf.Enabled = Convert.ToBoolean(dr("ADF"))
                     Else
 
                     End If
@@ -123,10 +134,24 @@ Public Class barcode_scan
     End Sub
 
     Private Sub process_cism()
+
+        If txt_adf.Enabled = True Then
+
+            txt_adf.Clear()
+            txt_adf.Focus()
+
+        Else
+            process_adf()
+        End If
+    End Sub
+
+
+    Private Sub process_adf()
         Dim str As String = cmb_model.Text
-        Dim parts() As String = Str.Split(":"c)
-        Insertbarcode(getshift, parts(0).Trim().ToUpper, txt_sc.Text.Trim.ToUpper, txt_crcis.Text.Trim.ToUpper, txt_cism.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
+        Dim parts() As String = str.Split(":"c)
+        Insertbarcode(getshift, parts(0).Trim().ToUpper, txt_sc.Text.Trim.ToUpper, txt_crcis.Text.Trim.ToUpper, txt_cism.Text.Trim.ToUpper, txt_adf.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
         reload(reloadsql, datagrid1)
+        totalToday()
         cleartext()
         If txt_sc.Enabled = True Then
             txt_sc.Clear()
@@ -134,8 +159,10 @@ Public Class barcode_scan
         Else
             process_sc()
         End If
-    End Sub
 
+
+
+    End Sub
 
     Private Sub txt_model_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_sc.KeyDown
         If e.KeyCode = Keys.Enter Then
@@ -171,10 +198,13 @@ Public Class barcode_scan
             End If
         End If
     End Sub
+
+
     Private Sub cleartext()
         txt_sc.Clear()
         txt_cism.Clear()
         txt_crcis.Clear()
+        txt_adf.Clear()
     End Sub
 
 
@@ -191,12 +221,43 @@ Public Class barcode_scan
                 Dim parts() As String = str.Split(":"c)
                 InsertbarcodeFVI(getshift, parts(0).Trim().ToUpper, txt_fvi.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
                 reload(reloadfvi, datagrid1)
+                totalToday()
                 txt_fvi.Clear()
                 txt_fvi.Focus()
             Else
                 MessageBox.Show("Invalid QR")
             End If
         End If
+
+    End Sub
+
+    Private Sub Guna2Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel1.Paint
+
+    End Sub
+
+
+
+    Private Sub txt_adf_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_adf.KeyDown
+
+        If e.KeyCode = Keys.Enter Then
+            If checkcode(txt_adf.Text.Trim.ToUpper, "adf", 3) = True Then
+                process_adf()
+            Else
+                MessageBox.Show("Invalid QR")
+            End If
+        End If
+
+    End Sub
+
+    Private Sub txt_crcis_TextChanged(sender As Object, e As EventArgs) Handles txt_crcis.TextChanged
+
+    End Sub
+
+    Private Sub txt_cism_TextChanged(sender As Object, e As EventArgs) Handles txt_cism.TextChanged
+
+    End Sub
+
+    Private Sub txt_adf_TextChanged(sender As Object, e As EventArgs) Handles txt_adf.TextChanged
 
     End Sub
 End Class

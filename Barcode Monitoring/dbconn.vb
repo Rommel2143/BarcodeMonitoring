@@ -123,10 +123,15 @@ Module dbconn
             con.Close()
         End Try
     End Function
-    Public Sub Insertbarcode(shift As String, model As String, sc As String, crcis As String, cism As String, name As String, line As String)
+    Public Sub Insertbarcode(shift As String, model As String, sc As String, crcis As String, cism As String, adf As String, name As String, line As String)
         Try
-            Dim sqlCheck As String = "SELECT COUNT(*) FROM barcodes WHERE SC = @SC OR CRCIS = @CRCIS OR CISM = @CISM;"
-            Dim sqlInsert As String = "INSERT INTO barcodes (datein, shift, model, SC, CRCIS, CISM, Name, line, timein) VALUES (@datein, @shift, @model, @SC, @CRCIS, @CISM, @Name, @line, @timein);"
+            Dim sqlCheck As String = "
+SELECT COUNT(*) FROM barcodes 
+WHERE 
+    (@SC <> '' AND SC = @SC) OR 
+    (@CISM <> '' AND CISM = @CISM) OR 
+    (@ADF <> '' AND ADF = @ADF);"
+            Dim sqlInsert As String = "INSERT INTO barcodes (datein, shift, model, SC, CRCIS, CISM,adf, Name, line, timein,judgement,remarks) VALUES (@datein, @shift, @model, @SC, @CRCIS, @CISM,@adf, @Name, @line, @timein,'G','');"
 
             con.Close()
             con.Open()
@@ -134,7 +139,7 @@ Module dbconn
             ' Check for duplicates
             Using cmdCheck As New SQLiteCommand(sqlCheck, con)
                 cmdCheck.Parameters.AddWithValue("@SC", sc)
-                cmdCheck.Parameters.AddWithValue("@CRCIS", crcis)
+                cmdCheck.Parameters.AddWithValue("@ADF", adf)
                 cmdCheck.Parameters.AddWithValue("@CISM", cism)
 
                 Dim count As Integer = Convert.ToInt32(cmdCheck.ExecuteScalar())
@@ -152,10 +157,10 @@ Module dbconn
                 cmdInsert.Parameters.AddWithValue("@SC", sc)
                 cmdInsert.Parameters.AddWithValue("@CRCIS", crcis)
                 cmdInsert.Parameters.AddWithValue("@CISM", cism)
+                cmdInsert.Parameters.AddWithValue("@adf", adf)
                 cmdInsert.Parameters.AddWithValue("@Name", name)
                 cmdInsert.Parameters.AddWithValue("@line", line)
                 cmdInsert.Parameters.AddWithValue("@timein", Date.Now.ToString("HH:mm"))
-
                 cmdInsert.ExecuteNonQuery()
             End Using
 
@@ -206,6 +211,48 @@ Module dbconn
             con.Close()
         End Try
     End Sub
+
+
+    Public Sub InsertbarcodeADF(shift As String, model As String, adf As String, name As String, line As String)
+        Try
+            Dim sqlCheck As String = "SELECT COUNT(*) FROM barcodes_adf WHERE adf= @adf;"
+            Dim sqlInsert As String = "INSERT INTO barcodes_adf (datein, shift, model, adf, Name, line, timein,judgement,remarks) VALUES (@datein, @shift, @model, @adf, @Name, @line, @timein,'G','');"
+
+            con.Close()
+            con.Open()
+
+            ' Check for duplicates
+            Using cmdCheck As New SQLiteCommand(sqlCheck, con)
+                cmdCheck.Parameters.AddWithValue("@adf", adf)
+
+                Dim count As Integer = Convert.ToInt32(cmdCheck.ExecuteScalar())
+                If count > 0 Then
+                    MessageBox.Show("Duplicate record found! Insertion canceled.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                    Exit Sub
+                End If
+            End Using
+
+            ' Insert if no duplicate
+            Using cmdInsert As New SQLiteCommand(sqlInsert, con)
+                cmdInsert.Parameters.AddWithValue("@datein", Date.Now.ToString("yyyy-MM-dd"))
+                cmdInsert.Parameters.AddWithValue("@shift", shift)
+                cmdInsert.Parameters.AddWithValue("@model", model)
+
+                cmdInsert.Parameters.AddWithValue("@adf", adf)
+                cmdInsert.Parameters.AddWithValue("@Name", name)
+                cmdInsert.Parameters.AddWithValue("@line", line)
+                cmdInsert.Parameters.AddWithValue("@timein", Date.Now.ToString("HH:mm"))
+
+                cmdInsert.ExecuteNonQuery()
+            End Using
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            con.Close()
+        End Try
+    End Sub
+
 
 
     Public Sub reload(ByVal sql As String, ByVal datagrid As DataGridView)

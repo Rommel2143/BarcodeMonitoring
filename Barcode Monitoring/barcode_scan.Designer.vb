@@ -29,12 +29,16 @@ Partial Class barcode_scan
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.panel_chk = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txt_adf = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txt_fvi = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_cism = New Guna.UI2.WinForms.Guna2TextBox()
         Me.txt_crcis = New Guna.UI2.WinForms.Guna2TextBox()
         Me.txt_sc = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
         Me.lbl_line = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -46,16 +50,17 @@ Partial Class barcode_scan
         Me.cmb_model = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.datagrid1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.lbl_total = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.txt_fvi = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2Panel1.SuspendLayout()
         Me.panel_chk.SuspendLayout()
         CType(Me.datagrid1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Panel1
         '
+        Me.Guna2Panel1.AutoScroll = True
         Me.Guna2Panel1.Controls.Add(Me.panel_chk)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Separator1)
         Me.Guna2Panel1.Controls.Add(Me.lbl_line)
@@ -74,48 +79,70 @@ Partial Class barcode_scan
         '
         'panel_chk
         '
-        Me.panel_chk.Controls.Add(Me.Label6)
-        Me.panel_chk.Controls.Add(Me.Label3)
+        Me.panel_chk.Controls.Add(Me.txt_adf)
         Me.panel_chk.Controls.Add(Me.txt_fvi)
-        Me.panel_chk.Controls.Add(Me.Label2)
         Me.panel_chk.Controls.Add(Me.Label1)
         Me.panel_chk.Controls.Add(Me.txt_cism)
         Me.panel_chk.Controls.Add(Me.txt_crcis)
         Me.panel_chk.Controls.Add(Me.txt_sc)
+        Me.panel_chk.Controls.Add(Me.Label6)
+        Me.panel_chk.Controls.Add(Me.Label7)
+        Me.panel_chk.Controls.Add(Me.Label3)
+        Me.panel_chk.Controls.Add(Me.Label2)
         Me.panel_chk.Enabled = False
-        Me.panel_chk.Location = New System.Drawing.Point(20, 317)
+        Me.panel_chk.Location = New System.Drawing.Point(14, 271)
         Me.panel_chk.Name = "panel_chk"
-        Me.panel_chk.Size = New System.Drawing.Size(287, 338)
+        Me.panel_chk.Size = New System.Drawing.Size(287, 402)
         Me.panel_chk.TabIndex = 30
         '
-        'Label3
+        'txt_adf
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.DimGray
-        Me.Label3.Location = New System.Drawing.Point(37, 168)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(38, 17)
-        Me.Label3.TabIndex = 14
-        Me.Label3.Text = "CISM"
+        Me.txt_adf.BorderColor = System.Drawing.Color.DimGray
+        Me.txt_adf.BorderRadius = 3
+        Me.txt_adf.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_adf.DefaultText = ""
+        Me.txt_adf.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txt_adf.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txt_adf.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_adf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_adf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_adf.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_adf.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_adf.Location = New System.Drawing.Point(40, 263)
+        Me.txt_adf.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.txt_adf.Name = "txt_adf"
+        Me.txt_adf.PlaceholderText = "Scan ADF..."
+        Me.txt_adf.SelectedText = ""
+        Me.txt_adf.Size = New System.Drawing.Size(209, 31)
+        Me.txt_adf.TabIndex = 33
         '
-        'Label2
+        'txt_fvi
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.DimGray
-        Me.Label2.Location = New System.Drawing.Point(37, 86)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 17)
-        Me.Label2.TabIndex = 13
-        Me.Label2.Text = "CR CIS"
+        Me.txt_fvi.BorderColor = System.Drawing.Color.DimGray
+        Me.txt_fvi.BorderRadius = 3
+        Me.txt_fvi.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_fvi.DefaultText = ""
+        Me.txt_fvi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txt_fvi.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txt_fvi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_fvi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_fvi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_fvi.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_fvi.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_fvi.Location = New System.Drawing.Point(40, 337)
+        Me.txt_fvi.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.txt_fvi.Name = "txt_fvi"
+        Me.txt_fvi.PlaceholderText = "Scan FVI..."
+        Me.txt_fvi.SelectedText = ""
+        Me.txt_fvi.Size = New System.Drawing.Size(209, 31)
+        Me.txt_fvi.TabIndex = 31
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DimGray
-        Me.Label1.Location = New System.Drawing.Point(37, 5)
+        Me.Label1.Location = New System.Drawing.Point(43, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(23, 17)
         Me.Label1.TabIndex = 12
@@ -123,6 +150,7 @@ Partial Class barcode_scan
         '
         'txt_cism
         '
+        Me.txt_cism.BorderColor = System.Drawing.Color.DimGray
         Me.txt_cism.BorderRadius = 3
         Me.txt_cism.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txt_cism.DefaultText = ""
@@ -143,6 +171,7 @@ Partial Class barcode_scan
         '
         'txt_crcis
         '
+        Me.txt_crcis.BorderColor = System.Drawing.Color.DimGray
         Me.txt_crcis.BorderRadius = 3
         Me.txt_crcis.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txt_crcis.DefaultText = ""
@@ -163,6 +192,7 @@ Partial Class barcode_scan
         '
         'txt_sc
         '
+        Me.txt_sc.BorderColor = System.Drawing.Color.DimGray
         Me.txt_sc.BorderRadius = 3
         Me.txt_sc.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txt_sc.DefaultText = ""
@@ -181,9 +211,53 @@ Partial Class barcode_scan
         Me.txt_sc.Size = New System.Drawing.Size(209, 31)
         Me.txt_sc.TabIndex = 3
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.DimGray
+        Me.Label6.Location = New System.Drawing.Point(37, 322)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(25, 17)
+        Me.Label6.TabIndex = 32
+        Me.Label6.Text = "FVI"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.DimGray
+        Me.Label7.Location = New System.Drawing.Point(37, 248)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(31, 17)
+        Me.Label7.TabIndex = 34
+        Me.Label7.Text = "ADF"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DimGray
+        Me.Label3.Location = New System.Drawing.Point(37, 174)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(38, 17)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "CISM"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DimGray
+        Me.Label2.Location = New System.Drawing.Point(37, 92)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(46, 17)
+        Me.Label2.TabIndex = 13
+        Me.Label2.Text = "CR CIS"
+        '
         'Guna2Separator1
         '
-        Me.Guna2Separator1.Location = New System.Drawing.Point(32, 226)
+        Me.Guna2Separator1.Location = New System.Drawing.Point(32, 189)
         Me.Guna2Separator1.Name = "Guna2Separator1"
         Me.Guna2Separator1.Size = New System.Drawing.Size(276, 8)
         Me.Guna2Separator1.TabIndex = 29
@@ -204,7 +278,7 @@ Partial Class barcode_scan
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.DimGray
-        Me.Label5.Location = New System.Drawing.Point(37, 133)
+        Me.Label5.Location = New System.Drawing.Point(40, 117)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(82, 17)
         Me.Label5.TabIndex = 23
@@ -212,6 +286,7 @@ Partial Class barcode_scan
         '
         'txt_name
         '
+        Me.txt_name.BorderColor = System.Drawing.Color.DimGray
         Me.txt_name.BorderRadius = 3
         Me.txt_name.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txt_name.DefaultText = ""
@@ -222,7 +297,7 @@ Partial Class barcode_scan
         Me.txt_name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_name.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_name.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txt_name.Location = New System.Drawing.Point(40, 154)
+        Me.txt_name.Location = New System.Drawing.Point(40, 138)
         Me.txt_name.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txt_name.Name = "txt_name"
         Me.txt_name.PlaceholderText = "Input Name..."
@@ -268,7 +343,7 @@ Partial Class barcode_scan
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.DimGray
-        Me.Label4.Location = New System.Drawing.Point(40, 249)
+        Me.Label4.Location = New System.Drawing.Point(37, 209)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(98, 17)
         Me.Label4.TabIndex = 10
@@ -277,6 +352,8 @@ Partial Class barcode_scan
         'cmb_model
         '
         Me.cmb_model.BackColor = System.Drawing.Color.Transparent
+        Me.cmb_model.BorderColor = System.Drawing.Color.DimGray
+        Me.cmb_model.BorderRadius = 3
         Me.cmb_model.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.cmb_model.DropDownHeight = 300
         Me.cmb_model.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -286,7 +363,7 @@ Partial Class barcode_scan
         Me.cmb_model.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.cmb_model.IntegralHeight = False
         Me.cmb_model.ItemHeight = 30
-        Me.cmb_model.Location = New System.Drawing.Point(43, 269)
+        Me.cmb_model.Location = New System.Drawing.Point(40, 229)
         Me.cmb_model.Name = "cmb_model"
         Me.cmb_model.Size = New System.Drawing.Size(229, 36)
         Me.cmb_model.TabIndex = 4
@@ -294,17 +371,18 @@ Partial Class barcode_scan
         'datagrid1
         '
         Me.datagrid1.AllowUserToResizeRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         Me.datagrid1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
+        Me.datagrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.Silver
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Silver
         DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.datagrid1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
@@ -312,7 +390,7 @@ Partial Class barcode_scan
         Me.datagrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
@@ -320,7 +398,7 @@ Partial Class barcode_scan
         Me.datagrid1.DefaultCellStyle = DataGridViewCellStyle7
         Me.datagrid1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.datagrid1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.datagrid1.Location = New System.Drawing.Point(341, 52)
+        Me.datagrid1.Location = New System.Drawing.Point(341, 92)
         Me.datagrid1.Name = "datagrid1"
         Me.datagrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -332,7 +410,7 @@ Partial Class barcode_scan
         DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.datagrid1.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.datagrid1.RowHeadersVisible = False
-        Me.datagrid1.Size = New System.Drawing.Size(816, 633)
+        Me.datagrid1.Size = New System.Drawing.Size(816, 593)
         Me.datagrid1.TabIndex = 1
         Me.datagrid1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.datagrid1.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -358,45 +436,26 @@ Partial Class barcode_scan
         '
         'Guna2Panel2
         '
+        Me.Guna2Panel2.Controls.Add(Me.lbl_total)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel2.Location = New System.Drawing.Point(341, 0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(816, 52)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(816, 92)
         Me.Guna2Panel2.TabIndex = 2
+        '
+        'lbl_total
+        '
+        Me.lbl_total.AutoSize = True
+        Me.lbl_total.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_total.ForeColor = System.Drawing.Color.DimGray
+        Me.lbl_total.Location = New System.Drawing.Point(6, 64)
+        Me.lbl_total.Name = "lbl_total"
+        Me.lbl_total.Size = New System.Drawing.Size(214, 25)
+        Me.lbl_total.TabIndex = 12
+        Me.lbl_total.Text = "Total inspected today : 0"
         '
         'Timer1
         '
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.DimGray
-        Me.Label6.Location = New System.Drawing.Point(37, 246)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(25, 17)
-        Me.Label6.TabIndex = 32
-        Me.Label6.Text = "FVI"
-        '
-        'txt_fvi
-        '
-        Me.txt_fvi.BorderRadius = 3
-        Me.txt_fvi.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txt_fvi.DefaultText = ""
-        Me.txt_fvi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.txt_fvi.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.txt_fvi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txt_fvi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txt_fvi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txt_fvi.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_fvi.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txt_fvi.Location = New System.Drawing.Point(40, 267)
-        Me.txt_fvi.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.txt_fvi.Name = "txt_fvi"
-        Me.txt_fvi.PlaceholderText = "Scan FVI..."
-        Me.txt_fvi.SelectedText = ""
-        Me.txt_fvi.Size = New System.Drawing.Size(209, 31)
-        Me.txt_fvi.TabIndex = 31
         '
         'barcode_scan
         '
@@ -415,6 +474,8 @@ Partial Class barcode_scan
         Me.panel_chk.ResumeLayout(False)
         Me.panel_chk.PerformLayout()
         CType(Me.datagrid1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel2.ResumeLayout(False)
+        Me.Guna2Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -441,4 +502,7 @@ Partial Class barcode_scan
     Friend WithEvents Label1 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents txt_fvi As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txt_adf As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents lbl_total As Label
 End Class

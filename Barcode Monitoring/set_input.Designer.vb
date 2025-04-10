@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class set_input
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class set_input
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.chk_cism = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.chk_cr = New Guna.UI2.WinForms.Guna2CheckBox()
@@ -30,6 +30,7 @@ Partial Class set_input
         Me.chk_fvi = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.chk_adf = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -118,7 +119,7 @@ Partial Class set_input
         Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(35, 334)
+        Me.Guna2Button2.Location = New System.Drawing.Point(45, 333)
         Me.Guna2Button2.Name = "Guna2Button2"
         Me.Guna2Button2.Size = New System.Drawing.Size(96, 36)
         Me.Guna2Button2.TabIndex = 29
@@ -148,32 +149,56 @@ Partial Class set_input
         'Guna2Panel1
         '
         Me.Guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2Panel1.BorderRadius = 1
+        Me.Guna2Panel1.BorderRadius = 5
+        Me.Guna2Panel1.BorderThickness = 1
+        Me.Guna2Panel1.Controls.Add(Me.chk_adf)
         Me.Guna2Panel1.Controls.Add(Me.chk_cism)
         Me.Guna2Panel1.Controls.Add(Me.chk_cr)
         Me.Guna2Panel1.Controls.Add(Me.chk_sc)
         Me.Guna2Panel1.FillColor = System.Drawing.Color.White
         Me.Guna2Panel1.Location = New System.Drawing.Point(45, 64)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(296, 132)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(296, 175)
         Me.Guna2Panel1.TabIndex = 31
         '
         'Guna2Panel2
         '
         Me.Guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2Panel2.BorderRadius = 1
+        Me.Guna2Panel2.BorderRadius = 5
+        Me.Guna2Panel2.BorderThickness = 1
         Me.Guna2Panel2.Controls.Add(Me.chk_fvi)
         Me.Guna2Panel2.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel2.Location = New System.Drawing.Point(45, 206)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(45, 245)
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(295, 67)
         Me.Guna2Panel2.TabIndex = 32
+        '
+        'chk_adf
+        '
+        Me.chk_adf.AutoSize = True
+        Me.chk_adf.BackColor = System.Drawing.Color.Transparent
+        Me.chk_adf.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.chk_adf.CheckedState.BorderRadius = 0
+        Me.chk_adf.CheckedState.BorderThickness = 0
+        Me.chk_adf.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.chk_adf.Font = New System.Drawing.Font("Segoe UI", 9.75!)
+        Me.chk_adf.ForeColor = System.Drawing.Color.DimGray
+        Me.chk_adf.Location = New System.Drawing.Point(23, 134)
+        Me.chk_adf.Name = "chk_adf"
+        Me.chk_adf.Size = New System.Drawing.Size(50, 21)
+        Me.chk_adf.TabIndex = 27
+        Me.chk_adf.Text = "ADF"
+        Me.chk_adf.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.chk_adf.UncheckedState.BorderRadius = 0
+        Me.chk_adf.UncheckedState.BorderThickness = 0
+        Me.chk_adf.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.chk_adf.UseVisualStyleBackColor = False
         '
         'set_input
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(375, 413)
+        Me.ClientSize = New System.Drawing.Size(416, 438)
         Me.Controls.Add(Me.Guna2Panel2)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.Guna2Button2)
@@ -196,4 +221,5 @@ Partial Class set_input
     Friend WithEvents chk_fvi As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents chk_adf As Guna.UI2.WinForms.Guna2CheckBox
 End Class
