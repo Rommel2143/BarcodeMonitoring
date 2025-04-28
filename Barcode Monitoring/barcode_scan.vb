@@ -24,14 +24,14 @@ Public Class barcode_scan
         If datagrid1.AllowUserToAddRows Then
             rowCount -= 1
         End If
-        lbl_total.Text = "Total inspected today : " & rowCount
+        lbl_total.Text = "Total (" & getshift() & ") inspected: " & rowCount
     End Sub
 
     Private Sub barcode_scan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         lbl_date.Text = "DATE : " & Date.Now.ToString("MMMM dd, yyyy")
         lbl_shift.Text = "SHIFT : " & getshift()
-
+        totalToday()
         lbl_line.Text = getLine()
         getSet()
         Timer1.Start()
@@ -84,13 +84,14 @@ Public Class barcode_scan
 
 
         Try
-            Dim sql As String = "SELECT id FROM MODEL WHERE " & column & " LIKE @text"
+            Dim sql As String = "SELECT id FROM MODEL WHERE " & column & " LIKE @text AND MODEL LIKE @model"
 
             con.Close()
             con.Open()
 
             Using cmd As New SQLiteCommand(sql, con)
                 cmd.Parameters.AddWithValue("@text", "%" + text.Substring(0, number) + "%")
+                cmd.Parameters.AddWithValue("@model", cmb_model.Text)
                 Using dr As SQLiteDataReader = cmd.ExecuteReader()
                     Return dr.HasRows
                 End Using
@@ -102,11 +103,6 @@ Public Class barcode_scan
         End Try
     End Function
 
-
-
-    Private Sub txt_model_TextChanged(sender As Object, e As EventArgs) Handles txt_sc.TextChanged
-
-    End Sub
 
     Private Sub process_sc()
 
@@ -147,12 +143,14 @@ Public Class barcode_scan
 
 
     Private Sub process_adf()
+
         Dim str As String = cmb_model.Text
         Dim parts() As String = str.Split(":"c)
         Insertbarcode(getshift, parts(0).Trim().ToUpper, txt_sc.Text.Trim.ToUpper, txt_crcis.Text.Trim.ToUpper, txt_cism.Text.Trim.ToUpper, txt_adf.Text.Trim.ToUpper, txt_name.Text.Trim, lbl_line.Text.Trim)
         reload(reloadsql, datagrid1)
         totalToday()
         cleartext()
+
         If txt_sc.Enabled = True Then
             txt_sc.Clear()
             txt_sc.Focus()
@@ -191,7 +189,7 @@ Public Class barcode_scan
 
     Private Sub txt_cism_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_cism.KeyDown
         If e.KeyCode = Keys.Enter Then
-            If checkcode(txt_cism.Text.Trim.ToUpper, "cism", 3) = True Then
+            If checkcode(txt_cism.Text.Trim.ToUpper, "cism", 2) = True Then
                 process_cism()
             Else
                 MessageBox.Show("Invalid QR")
@@ -199,6 +197,17 @@ Public Class barcode_scan
         End If
     End Sub
 
+    Private Sub txt_adf_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_adf.KeyDown
+
+        If e.KeyCode = Keys.Enter Then
+            If checkcode(txt_adf.Text.Trim.ToUpper, "adf", 3) = True Then
+                process_adf()
+            Else
+                MessageBox.Show("Invalid QR adf")
+            End If
+        End If
+
+    End Sub
 
     Private Sub cleartext()
         txt_sc.Clear()
@@ -207,12 +216,6 @@ Public Class barcode_scan
         txt_adf.Clear()
     End Sub
 
-
-
-
-    Private Sub txt_fvi_TextChanged(sender As Object, e As EventArgs) Handles txt_fvi.TextChanged
-
-    End Sub
 
     Private Sub txt_fvi_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_fvi.KeyDown
         If e.KeyCode = Keys.Enter Then
@@ -231,33 +234,10 @@ Public Class barcode_scan
 
     End Sub
 
-    Private Sub Guna2Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel1.Paint
-
-    End Sub
 
 
 
-    Private Sub txt_adf_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_adf.KeyDown
-
-        If e.KeyCode = Keys.Enter Then
-            If checkcode(txt_adf.Text.Trim.ToUpper, "adf", 3) = True Then
-                process_adf()
-            Else
-                MessageBox.Show("Invalid QR")
-            End If
-        End If
-
-    End Sub
-
-    Private Sub txt_crcis_TextChanged(sender As Object, e As EventArgs) Handles txt_crcis.TextChanged
-
-    End Sub
-
-    Private Sub txt_cism_TextChanged(sender As Object, e As EventArgs) Handles txt_cism.TextChanged
-
-    End Sub
-
-    Private Sub txt_adf_TextChanged(sender As Object, e As EventArgs) Handles txt_adf.TextChanged
+    Private Sub txt_sc_TextChanged(sender As Object, e As EventArgs) Handles txt_sc.TextChanged
 
     End Sub
 End Class
