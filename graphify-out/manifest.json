@@ -1,0 +1,206 @@
+{
+  "Barcode Monitoring/Barcode Monitoring.sln": {
+    "mtime": 1793930932.9320712,
+    "seen": 1793931907.146102,
+    "ast_hash": "fd63bfd3bd4aa82d9dd376eb466ead22",
+    "semantic_hash": "fd63bfd3bd4aa82d9dd376eb466ead22"
+  },
+  "Barcode Monitoring/Barcode Monitoring.vbproj": {
+    "mtime": 1793930932.9320712,
+    "seen": 1793931907.146102,
+    "ast_hash": "c619d33d026c220ba08b0446213efdd6",
+    "semantic_hash": "c619d33d026c220ba08b0446213efdd6"
+  },
+  "Barcode Monitoring/Mainframe.designer.vb": {
+    "mtime": 1793930932.9360974,
+    "seen": 1793931907.146102,
+    "ast_hash": "aa68c2d5dd6c3eb361ab0af78ce20e7e",
+    "semantic_hash": "aa68c2d5dd6c3eb361ab0af78ce20e7e"
+  },
+  "Barcode Monitoring/Mainframe.vb": {
+    "mtime": 1793932716.751489,
+    "seen": 1793932768.440622,
+    "ast_hash": "b6e4161fa622b006def3f39dda5dd253",
+    "semantic_hash": ""
+  },
+  "Barcode Monitoring/My Project/Application.Designer.vb": {
+    "mtime": 1793930932.9401193,
+    "seen": 1793931907.146102,
+    "ast_hash": "dca96697c2277c13fcec059a935c557d",
+    "semantic_hash": "dca96697c2277c13fcec059a935c557d"
+  },
+  "Barcode Monitoring/My Project/AssemblyInfo.vb": {
+    "mtime": 1793930932.9432614,
+    "seen": 1793931907.146102,
+    "ast_hash": "15ad9da97c8bdcab58e19867f1c31ca7",
+    "semantic_hash": "15ad9da97c8bdcab58e19867f1c31ca7"
+  },
+  "Barcode Monitoring/My Project/Resources.Designer.vb": {
+    "mtime": 1793930932.9432614,
+    "seen": 1793931907.146102,
+    "ast_hash": "4c985c10c2a123a1e10cb0c74350b91a",
+    "semantic_hash": "4c985c10c2a123a1e10cb0c74350b91a"
+  },
+  "Barcode Monitoring/My Project/Settings.Designer.vb": {
+    "mtime": 1793930932.9471178,
+    "seen": 1793931907.146102,
+    "ast_hash": "1e1173d68d12d1432f62978e82d34923",
+    "semantic_hash": "1e1173d68d12d1432f62978e82d34923"
+  },
+  "Barcode Monitoring/SnackbarModule.vb": {
+    "mtime": 1793930932.954368,
+    "seen": 1793931907.146102,
+    "ast_hash": "089c062753cd2039bd84da642ea108ea",
+    "semantic_hash": "089c062753cd2039bd84da642ea108ea"
+  },
+  "Barcode Monitoring/barcode_scan.Designer.vb": {
+    "mtime": 1793930932.956248,
+    "seen": 1793931907.146102,
+    "ast_hash": "f5666054e1b21891cd1ce575141277a6",
+    "semantic_hash": "f5666054e1b21891cd1ce575141277a6"
+  },
+  "Barcode Monitoring/barcode_scan.vb": {
+    "mtime": 1793930932.9576201,
+    "seen": 1793931907.146102,
+    "ast_hash": "332cc561483e949efc4cba487afe93d8",
+    "semantic_hash": "332cc561483e949efc4cba487afe93d8"
+  },
+  "Barcode Monitoring/create_line.Designer.vb": {
+    "mtime": 1793930932.960641,
+    "seen": 1793931907.146102,
+    "ast_hash": "992f3b082971d6e9e2d6966b1e10b372",
+    "semantic_hash": "992f3b082971d6e9e2d6966b1e10b372"
+  },
+  "Barcode Monitoring/create_line.vb": {
+    "mtime": 1793930932.960641,
+    "seen": 1793931907.146102,
+    "ast_hash": "dd870fe1071e3767b85e010356c96f99",
+    "semantic_hash": "dd870fe1071e3767b85e010356c96f99"
+  },
+  "Barcode Monitoring/create_model.Designer.vb": {
+    "mtime": 1793930932.960641,
+    "seen": 1793931907.146102,
+    "ast_hash": "75055642c4ba5b697dc75443092656b4",
+    "semantic_hash": "75055642c4ba5b697dc75443092656b4"
+  },
+  "Barcode Monitoring/create_model.vb": {
+    "mtime": 1793930932.9626534,
+    "seen": 1793931907.146102,
+    "ast_hash": "362eba2ec415de7279f94ccfb817d87c",
+    "semantic_hash": "362eba2ec415de7279f94ccfb817d87c"
+  },
+  "Barcode Monitoring/dbconn.vb": {
+    "mtime": 1793932716.6810114,
+    "seen": 1793932768.440622,
+    "ast_hash": "cd6e8cfa8ba424ee237769bda0153e3b",
+    "semantic_hash": ""
+  },
+  "Barcode Monitoring/exportExcel.vb": {
+    "mtime": 1793930932.9656186,
+    "seen": 1793931907.146102,
+    "ast_hash": "231544023439039e9051efd770d808b1",
+    "semantic_hash": "231544023439039e9051efd770d808b1"
+  },
+  "Barcode Monitoring/frameModules.vb": {
+    "mtime": 1793930932.9656186,
+    "seen": 1793931907.146102,
+    "ast_hash": "6a61c1963b50847497a3e92332f19b11",
+    "semantic_hash": "6a61c1963b50847497a3e92332f19b11"
+  },
+  "Barcode Monitoring/set_input.Designer.vb": {
+    "mtime": 1793930932.9666226,
+    "seen": 1793931907.146102,
+    "ast_hash": "6546664600995e465f6f06736d792f26",
+    "semantic_hash": "6546664600995e465f6f06736d792f26"
+  },
+  "Barcode Monitoring/set_input.vb": {
+    "mtime": 1793930932.9676182,
+    "seen": 1793931907.146102,
+    "ast_hash": "87aaf1ed283800495d00d519e1727ea7",
+    "semantic_hash": "87aaf1ed283800495d00d519e1727ea7"
+  },
+  "Barcode Monitoring/subframe.designer.vb": {
+    "mtime": 1793930932.9676182,
+    "seen": 1793931907.146102,
+    "ast_hash": "276619b4df2f94f82b847bdabd4698fa",
+    "semantic_hash": "276619b4df2f94f82b847bdabd4698fa"
+  },
+  "Barcode Monitoring/subframe.vb": {
+    "mtime": 1793930932.9686189,
+    "seen": 1793931907.146102,
+    "ast_hash": "b9db2d635528b99858bbb5c3b796a8d4",
+    "semantic_hash": "b9db2d635528b99858bbb5c3b796a8d4"
+  },
+  "Barcode Monitoring/viewrecords.Designer.vb": {
+    "mtime": 1793930932.9696167,
+    "seen": 1793931907.146102,
+    "ast_hash": "c81fb1898b0561ae709523a470d571c3",
+    "semantic_hash": "c81fb1898b0561ae709523a470d571c3"
+  },
+  "Barcode Monitoring/viewrecords.vb": {
+    "mtime": 1793930932.9696167,
+    "seen": 1793931907.146102,
+    "ast_hash": "13df592f46a42e3e6b827cb3bbf037e2",
+    "semantic_hash": "13df592f46a42e3e6b827cb3bbf037e2"
+  },
+  "CLAUDE.md": {
+    "mtime": 1793932759.4968424,
+    "seen": 1793932768.440622,
+    "ast_hash": "6d0725a32a4e183c292a48bee90d35cd",
+    "semantic_hash": ""
+  },
+  "docs/Architecture.md": {
+    "mtime": 1793932064.1611896,
+    "seen": 1793932257.004755,
+    "ast_hash": "65f4793994690cdf6769fd55341752b8",
+    "semantic_hash": "65f4793994690cdf6769fd55341752b8"
+  },
+  "docs/Build-and-Deploy.md": {
+    "mtime": 1793932759.2980454,
+    "seen": 1793932768.440622,
+    "ast_hash": "2d98dfe6cac2df2625b31f7cff7775c6",
+    "semantic_hash": ""
+  },
+  "docs/Database-Schema.md": {
+    "mtime": 1793932759.042627,
+    "seen": 1793932768.440622,
+    "ast_hash": "b60c849abe50f07cb569a5e81108b6bb",
+    "semantic_hash": ""
+  },
+  "docs/Graphify-Workflow.md": {
+    "mtime": 1793932012.5315197,
+    "seen": 1793932257.004755,
+    "ast_hash": "9db266065a39b9903a6fba8d42f0ba41",
+    "semantic_hash": "9db266065a39b9903a6fba8d42f0ba41"
+  },
+  "docs/INDEX.md": {
+    "mtime": 1793932011.459065,
+    "seen": 1793932257.004755,
+    "ast_hash": "456076fa7d56e8e3711f73b2f7787d7f",
+    "semantic_hash": "456076fa7d56e8e3711f73b2f7787d7f"
+  },
+  "docs/Known-Issues.md": {
+    "mtime": 1793932759.3913589,
+    "seen": 1793932768.440622,
+    "ast_hash": "31433a389ce8ccc44bc6ebcfdb9ff533",
+    "semantic_hash": ""
+  },
+  "docs/Modules.md": {
+    "mtime": 1793932759.1060808,
+    "seen": 1793932768.440622,
+    "ast_hash": "45c22c81a9c4123af2294763abf450df",
+    "semantic_hash": ""
+  },
+  "docs/Scan-Workflow.md": {
+    "mtime": 1793932011.7816522,
+    "seen": 1793932257.004755,
+    "ast_hash": "14fad40d6f8c1022b5c9b2697c75924c",
+    "semantic_hash": "14fad40d6f8c1022b5c9b2697c75924c"
+  },
+  "docs/Screens.md": {
+    "mtime": 1793932012.0216582,
+    "seen": 1793932257.004755,
+    "ast_hash": "5f12528022a593f56add251af48a4a83",
+    "semantic_hash": "5f12528022a593f56add251af48a4a83"
+  }
+}

@@ -1,0 +1,4456 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "DB Access Layer (dbconn)",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 820,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_graphify_workflow_vb_module_call_gap",
+      "type": "file",
+      "file": "AST gap VB Module member calls unresolved.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_crcis_not_duplicate_checked",
+      "type": "file",
+      "file": "Bug 6 CRCIS not duplicate-checked.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_deleteline_ignores_argument",
+      "type": "file",
+      "file": "Bug 7 deleteLine ignores its argument.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_time_format_convention",
+      "type": "file",
+      "file": "Datetime storage convention (yyyy-MM-dd, HHmmss).md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_guna_ui2_winforms",
+      "type": "file",
+      "file": "Guna.UI2.WinForms.md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_insertdata",
+      "type": "file",
+      "file": "InsertData().md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_insertline",
+      "type": "file",
+      "file": "InsertLine().md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_insertbarcode",
+      "type": "file",
+      "file": "Insertbarcode().md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_insertbarcodeadf",
+      "type": "file",
+      "file": "InsertbarcodeADF().md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_insertbarcodefvi",
+      "type": "file",
+      "file": "InsertbarcodeFVI().md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_line",
+      "type": "file",
+      "file": "LINE table.md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_type_mainframe",
+      "type": "file",
+      "file": "Mainframe.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe",
+      "type": "file",
+      "file": "Mainframe.vb.md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4",
+      "type": "file",
+      "file": "Mainframe_Load().md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_no_schema_creation",
+      "type": "file",
+      "file": "No schema creationmigration (missing DDL).md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_nowtime",
+      "type": "file",
+      "file": "NowTime().md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_showsnackbar_1_20",
+      "type": "file",
+      "file": "ShowSnackbar().md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_single_global_connection",
+      "type": "file",
+      "file": "Single global connection, no transactions.md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule",
+      "type": "file",
+      "file": "SnackbarModule.md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_snackbarmodule",
+      "type": "file",
+      "file": "SnackbarModule.vb.md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_system_data_sqlite",
+      "type": "file",
+      "file": "System.Data.SQLite.md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_system_threading",
+      "type": "file",
+      "file": "System.Threading.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "type": "file",
+      "file": "UpdateLine().md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_upgradetimeformat",
+      "type": "file",
+      "file": "UpgradeTimeFormat().md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan",
+      "type": "file",
+      "file": "barcode_scan.vb.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_barcodes",
+      "type": "file",
+      "file": "barcodes table.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_barcodes_adf",
+      "type": "file",
+      "file": "barcodes_adf table.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_barcodes_fvi",
+      "type": "file",
+      "file": "barcodes_fvi table.md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_btn_save_click",
+      "type": "file",
+      "file": "btn_save.Click.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3",
+      "type": "file",
+      "file": "btn_save_Click().md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2",
+      "type": "file",
+      "file": "btn_save_Click()_1.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_con",
+      "type": "file",
+      "file": "con (SQLiteConnection).md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_type_create_line",
+      "type": "file",
+      "file": "create_line.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line",
+      "type": "file",
+      "file": "create_line.vb.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db",
+      "type": "file",
+      "file": "database.db (SQLite).md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn",
+      "type": "file",
+      "file": "dbconn.vb.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_deleteline",
+      "type": "file",
+      "file": "deleteLine().md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_framemodules_type_framemodules_method_display_inmain_1_2",
+      "type": "file",
+      "file": "display_inMain().md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_framemodules_type_framemodules_method_display_insub_1_15",
+      "type": "file",
+      "file": "display_inSub().md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_framemodules_type_framemodules",
+      "type": "file",
+      "file": "frameModules.md",
+      "x": 820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_framemodules",
+      "type": "file",
+      "file": "frameModules.vb.md",
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_getline",
+      "type": "file",
+      "file": "getLine().md",
+      "x": 1220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_reload",
+      "type": "file",
+      "file": "reload().md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input",
+      "type": "file",
+      "file": "set_input.vb.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3",
+      "type": "file",
+      "file": "show_error().md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords",
+      "type": "file",
+      "file": "viewrecords.vb.md",
+      "x": 620,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Barcode Scan Workflow",
+      "x": 1620,
+      "y": 0,
+      "width": 1540,
+      "height": 720,
+      "color": "2"
+    },
+    {
+      "id": "n_docs_known_issues_cmb_display_leaks_connection",
+      "type": "file",
+      "file": "Bug 10 cmb_display never closes con.md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_stale_today_queries",
+      "type": "file",
+      "file": "Bug 3 Stale today queries after midnight.md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_night_shift_date_split",
+      "type": "file",
+      "file": "Bug 4 Night-shift scans after 0000 get next datein.md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_checkcode_short_input_crash",
+      "type": "file",
+      "file": "Bug 5 checkcode crash on short input.md",
+      "x": 2240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_scan_workflow_fvi_only_mode",
+      "type": "file",
+      "file": "FVI-only scan mode.md",
+      "x": 2440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_model",
+      "type": "file",
+      "file": "MODEL table.md",
+      "x": 2640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_scan_workflow_multi_serial_chain",
+      "type": "file",
+      "file": "Multi-serial scan chain (SC - CRCIS - CISM - ADF).md",
+      "x": 2840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_scan_workflow_prefix_validation",
+      "type": "file",
+      "file": "Serial prefix validation against MODEL.md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_scan_workflow_shift_logic",
+      "type": "file",
+      "file": "Shift logic (DS 0700-1900, else NS).md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_timer1_tick",
+      "type": "file",
+      "file": "Timer1.Tick.md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64",
+      "type": "file",
+      "file": "Timer1_Tick().md",
+      "x": 2240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "type": "file",
+      "file": "barcode_scan.md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "type": "file",
+      "file": "barcode_scan_Load().md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "type": "file",
+      "file": "checkcode().md",
+      "x": 2840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cleartext_0_211",
+      "type": "file",
+      "file": "cleartext().md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_cmb_display",
+      "type": "file",
+      "file": "cmb_display().md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_cmb_model_click",
+      "type": "file",
+      "file": "cmb_model.Click.md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_cmb_model_selectedindexchanged",
+      "type": "file",
+      "file": "cmb_model.SelectedIndexChanged.md",
+      "x": 2240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78",
+      "type": "file",
+      "file": "cmb_model_Click().md",
+      "x": 2440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70",
+      "type": "file",
+      "file": "cmb_model_SelectedIndexChanged().md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "type": "file",
+      "file": "getshift().md",
+      "x": 2840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "type": "file",
+      "file": "process_adf().md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "type": "file",
+      "file": "process_cism().md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "type": "file",
+      "file": "process_crcis().md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "type": "file",
+      "file": "process_sc().md",
+      "x": 2240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadadf_6",
+      "type": "file",
+      "file": "reloadadf.md",
+      "x": 2440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadfvi_5",
+      "type": "file",
+      "file": "reloadfvi.md",
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadsql_3",
+      "type": "file",
+      "file": "reloadsql.md",
+      "x": 2840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "type": "file",
+      "file": "totalToday().md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_adf_keydown",
+      "type": "file",
+      "file": "txt_adf.KeyDown.md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199",
+      "type": "file",
+      "file": "txt_adf_KeyDown().md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_cism_keydown",
+      "type": "file",
+      "file": "txt_cism.KeyDown.md",
+      "x": 2240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189",
+      "type": "file",
+      "file": "txt_cism_KeyDown().md",
+      "x": 2440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_crcis_keydown",
+      "type": "file",
+      "file": "txt_crcis.KeyDown.md",
+      "x": 2640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178",
+      "type": "file",
+      "file": "txt_crcis_KeyDown().md",
+      "x": 2840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_fvi_keydown",
+      "type": "file",
+      "file": "txt_fvi.KeyDown.md",
+      "x": 1640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "type": "file",
+      "file": "txt_fvi_KeyDown().md",
+      "x": 1840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164",
+      "type": "file",
+      "file": "txt_model_KeyDown().md",
+      "x": 2040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_name_textchanged",
+      "type": "file",
+      "file": "txt_name.TextChanged.md",
+      "x": 2240,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_sc_keydown",
+      "type": "file",
+      "file": "txt_sc.KeyDown.md",
+      "x": 2440,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_txt_sc_textchanged",
+      "type": "file",
+      "file": "txt_sc.TextChanged.md",
+      "x": 2640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_sc_textchanged_2_239",
+      "type": "file",
+      "file": "txt_sc_TextChanged().md",
+      "x": 2840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Scan Screen UI Layout",
+      "x": 3240,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose()_1.md",
+      "x": 3260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2panel1_484",
+      "type": "file",
+      "file": "Guna2Panel1_1.md",
+      "x": 3460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2panel2_486",
+      "type": "file",
+      "file": "Guna2Panel2_1.md",
+      "x": 3660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2separator1_498",
+      "type": "file",
+      "file": "Guna2Separator1.md",
+      "x": 3860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent()_1.md",
+      "x": 4060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label1_503",
+      "type": "file",
+      "file": "Label1.md",
+      "x": 4260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label12_495",
+      "type": "file",
+      "file": "Label12.md",
+      "x": 3260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label2_502",
+      "type": "file",
+      "file": "Label2.md",
+      "x": 3460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label3_501",
+      "type": "file",
+      "file": "Label3.md",
+      "x": 3660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label4_489",
+      "type": "file",
+      "file": "Label4.md",
+      "x": 3860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label5_496",
+      "type": "file",
+      "file": "Label5.md",
+      "x": 4060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label6_504",
+      "type": "file",
+      "file": "Label6.md",
+      "x": 4260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label7_507",
+      "type": "file",
+      "file": "Label7.md",
+      "x": 3260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_timer1_494",
+      "type": "file",
+      "file": "Timer1.md",
+      "x": 3460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "type": "file",
+      "file": "barcode_scan_1.md",
+      "x": 3660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer",
+      "type": "file",
+      "file": "barcode_scan.Designer.vb.md",
+      "x": 3860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_cmb_model_487",
+      "type": "file",
+      "file": "cmb_model.md",
+      "x": 4060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_components_17",
+      "type": "file",
+      "file": "components_1.md",
+      "x": 4260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_datagrid1_485",
+      "type": "file",
+      "file": "datagrid1.md",
+      "x": 3260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_date_493",
+      "type": "file",
+      "file": "lbl_date.md",
+      "x": 3460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_line_499",
+      "type": "file",
+      "file": "lbl_line_1.md",
+      "x": 3660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_shift_492",
+      "type": "file",
+      "file": "lbl_shift.md",
+      "x": 3860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_total_508",
+      "type": "file",
+      "file": "lbl_total.md",
+      "x": 4060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_panel_chk_500",
+      "type": "file",
+      "file": "panel_chk.md",
+      "x": 4260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_adf_506",
+      "type": "file",
+      "file": "txt_adf.md",
+      "x": 3260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_cism_490",
+      "type": "file",
+      "file": "txt_cism.md",
+      "x": 3460,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_crcis_491",
+      "type": "file",
+      "file": "txt_crcis.md",
+      "x": 3660,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_fvi_505",
+      "type": "file",
+      "file": "txt_fvi.md",
+      "x": 3860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_name_497",
+      "type": "file",
+      "file": "txt_name.md",
+      "x": 4060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_sc_488",
+      "type": "file",
+      "file": "txt_sc.md",
+      "x": 4260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Records Review and Judgement",
+      "x": 4640,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_docs_known_issues_judgement_change_detection",
+      "type": "file",
+      "file": "Bug 11 Judgement change detection uses uninitialised Cell.Tag.md",
+      "x": 4660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_judgement_wrong_table",
+      "type": "file",
+      "file": "Bug 1 Judgement saves go to wrong table (rad always 0).md",
+      "x": 4860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_adf_search_wrong_column",
+      "type": "file",
+      "file": "Bug 8 viewrecords.adf() searches FVI column on barcodes_adf.md",
+      "x": 5060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_others_search_columns",
+      "type": "file",
+      "file": "Bug 9 others() repeats SC, omits ADF; LIKE without wildcards.md",
+      "x": 5260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_form_default_instances",
+      "type": "file",
+      "file": "Forms as VB default instances (singleton screens).md",
+      "x": 5460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_guna2button2_click",
+      "type": "file",
+      "file": "Guna2Button2.Click.md",
+      "x": 5660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_guna2button2_click_2_36",
+      "type": "file",
+      "file": "Guna2Button2_Click().md",
+      "x": 4660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7",
+      "type": "file",
+      "file": "Guna2Button2_Click()_1.md",
+      "x": 4860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton1_checkedchanged_2_186",
+      "type": "file",
+      "file": "Guna2RadioButton1_CheckedChanged().md",
+      "x": 5060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton2_checkedchanged_2_190",
+      "type": "file",
+      "file": "Guna2RadioButton2_CheckedChanged().md",
+      "x": 5260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton3_checkedchanged_2_182",
+      "type": "file",
+      "file": "Guna2RadioButton3_CheckedChanged().md",
+      "x": 5460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_initializesavebutton_0_115",
+      "type": "file",
+      "file": "InitializeSaveButton().md",
+      "x": 5660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues_sql_injection",
+      "type": "file",
+      "file": "SQL injection via string concatenation.md",
+      "x": 4660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_savejudgementchanges_0_130",
+      "type": "file",
+      "file": "SaveJudgementChanges().md",
+      "x": 4860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "type": "file",
+      "file": "SetupJudgementComboBox().md",
+      "x": 5060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_updatejudgementindatabase_4_162",
+      "type": "file",
+      "file": "UpdateJudgementInDatabase().md",
+      "x": 5260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "type": "file",
+      "file": "adf().md",
+      "x": 5460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124",
+      "type": "file",
+      "file": "btnSaveChanges_Click().md",
+      "x": 5660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_btnsavechanges_click",
+      "type": "file",
+      "file": "btnsavechanges.Click.md",
+      "x": 4660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_dbconn_deletemodel",
+      "type": "file",
+      "file": "deleteModel().md",
+      "x": 4860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "type": "file",
+      "file": "fvi().md",
+      "x": 5060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_judgement",
+      "type": "file",
+      "file": "judgement table.md",
+      "x": 5260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "type": "file",
+      "file": "others().md",
+      "x": 5460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_field_rad_2",
+      "type": "file",
+      "file": "rad.md",
+      "x": 5660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_rad_fvi_checkedchanged",
+      "type": "file",
+      "file": "rad_fvi.CheckedChanged.md",
+      "x": 4660,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_rad_sc_checkedchanged",
+      "type": "file",
+      "file": "rad_sc.CheckedChanged.md",
+      "x": 4860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "type": "file",
+      "file": "viewrecords.md",
+      "x": 5060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Model Registry Logic",
+      "x": 6040,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_vbnet_namespace_closedxml_excel",
+      "type": "file",
+      "file": "ClosedXML.Excel.md",
+      "x": 6060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_guna2button1_click",
+      "type": "file",
+      "file": "Guna2Button1.Click.md",
+      "x": 6260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_guna2button1_click_2_17",
+      "type": "file",
+      "file": "Guna2Button1_Click()_1.md",
+      "x": 6460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button1_click_2_111",
+      "type": "file",
+      "file": "Guna2Button1_Click()_2.md",
+      "x": 6660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_guna2button2_click_2_36",
+      "type": "file",
+      "file": "Guna2Button2_Click()_2.md",
+      "x": 6860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_label1_click",
+      "type": "file",
+      "file": "Label1.Click.md",
+      "x": 7060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_label1_click_2_54",
+      "type": "file",
+      "file": "Label1_Click().md",
+      "x": 6060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_mybase_load",
+      "type": "file",
+      "file": "MyBase.Load.md",
+      "x": 6260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_system_io",
+      "type": "file",
+      "file": "System.IO.md",
+      "x": 6460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model",
+      "type": "file",
+      "file": "create_model.md",
+      "x": 6660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model",
+      "type": "file",
+      "file": "create_model.vb.md",
+      "x": 6860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_type_create_line_method_create_model_load_2_9",
+      "type": "file",
+      "file": "create_model_Load().md",
+      "x": 7060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_create_model_load_2_13",
+      "type": "file",
+      "file": "create_model_Load()_1.md",
+      "x": 6060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_datagrid1_cellclick",
+      "type": "file",
+      "file": "datagrid1.CellClick.md",
+      "x": 6260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_datagrid1_cellcontentclick",
+      "type": "file",
+      "file": "datagrid1.CellContentClick.md",
+      "x": 6460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_datagrid1_celldoubleclick",
+      "type": "file",
+      "file": "datagrid1.CellDoubleClick.md",
+      "x": 6660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_datagrid1_cellmousedoubleclick",
+      "type": "file",
+      "file": "datagrid1.CellMouseDoubleClick.md",
+      "x": 6860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_datagrid1_cellclick_2_26",
+      "type": "file",
+      "file": "datagrid1_CellClick().md",
+      "x": 7060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_datagrid1_cellcontentclick_2_21",
+      "type": "file",
+      "file": "datagrid1_CellContentClick().md",
+      "x": 6060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_datagrid1_celldoubleclick_2_30",
+      "type": "file",
+      "file": "datagrid1_CellDoubleClick().md",
+      "x": 6260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_method_datagrid1_cellmousedoubleclick_2_40",
+      "type": "file",
+      "file": "datagrid1_CellMouseDoubleClick().md",
+      "x": 6460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_exportexcel_type_exportexcel",
+      "type": "file",
+      "file": "exportExcel.md",
+      "x": 6660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_exportexcel",
+      "type": "file",
+      "file": "exportExcel.vb.md",
+      "x": 6860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_exportexcel_type_exportexcel_method_exporttoexcel_1_5",
+      "type": "file",
+      "file": "exporttoExcel().md",
+      "x": 7060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_type_create_model_field_sql_1",
+      "type": "file",
+      "file": "sql.md",
+      "x": 6060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_type_viewrecords_method_viewrecords_load_2_3",
+      "type": "file",
+      "file": "viewrecords_Load().md",
+      "x": 6260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Records Screen UI Layout",
+      "x": 0,
+      "y": 900,
+      "width": 1100,
+      "height": 620,
+      "color": "6"
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose()_2.md",
+      "x": 20,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_guna2button1_397",
+      "type": "file",
+      "file": "Guna2Button1.md",
+      "x": 220,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_guna2button2_392",
+      "type": "file",
+      "file": "Guna2Button2_1.md",
+      "x": 420,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_guna2panel1_405",
+      "type": "file",
+      "file": "Guna2Panel1_2.md",
+      "x": 620,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_guna2panel2_391",
+      "type": "file",
+      "file": "Guna2Panel2_2.md",
+      "x": 820,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_guna2vseparator1_400",
+      "type": "file",
+      "file": "Guna2VSeparator1.md",
+      "x": 20,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_guna2vseparator2_408",
+      "type": "file",
+      "file": "Guna2VSeparator2.md",
+      "x": 220,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent()_2.md",
+      "x": 420,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_label10_394",
+      "type": "file",
+      "file": "Label10.md",
+      "x": 620,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_label11_393",
+      "type": "file",
+      "file": "Label11.md",
+      "x": 820,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_label5_401",
+      "type": "file",
+      "file": "Label5_1.md",
+      "x": 20,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_label7_399",
+      "type": "file",
+      "file": "Label7_1.md",
+      "x": 220,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_label9_395",
+      "type": "file",
+      "file": "Label9.md",
+      "x": 420,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_btnsavechanges_404",
+      "type": "file",
+      "file": "btnsavechanges.md",
+      "x": 620,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_components_17",
+      "type": "file",
+      "file": "components_2.md",
+      "x": 820,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_datagrid1_403",
+      "type": "file",
+      "file": "datagrid1_1.md",
+      "x": 20,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_dtpicker1_402",
+      "type": "file",
+      "file": "dtpicker1.md",
+      "x": 220,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_dtpicker2_396",
+      "type": "file",
+      "file": "dtpicker2.md",
+      "x": 420,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_rad_fvi_407",
+      "type": "file",
+      "file": "rad_fvi.md",
+      "x": 620,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_rad_sc_406",
+      "type": "file",
+      "file": "rad_sc.md",
+      "x": 820,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords_field_txt_search_398",
+      "type": "file",
+      "file": "txt_search.md",
+      "x": 20,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer_type_viewrecords",
+      "type": "file",
+      "file": "viewrecords_1.md",
+      "x": 220,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_viewrecords_designer",
+      "type": "file",
+      "file": "viewrecords.Designer.vb.md",
+      "x": 420,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Model Setup UI Layout",
+      "x": 1620,
+      "y": 900,
+      "width": 1100,
+      "height": 620,
+      "color": "1"
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose()_3.md",
+      "x": 1640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_guna2button1_379",
+      "type": "file",
+      "file": "Guna2Button1_1.md",
+      "x": 1840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_guna2vseparator1_384",
+      "type": "file",
+      "file": "Guna2VSeparator1_1.md",
+      "x": 2040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent()_3.md",
+      "x": 2240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label1_380",
+      "type": "file",
+      "file": "Label1_1.md",
+      "x": 2440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label2_382",
+      "type": "file",
+      "file": "Label2_1.md",
+      "x": 1640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label3_383",
+      "type": "file",
+      "file": "Label3_1.md",
+      "x": 1840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label4_385",
+      "type": "file",
+      "file": "Label4_1.md",
+      "x": 2040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label5_387",
+      "type": "file",
+      "file": "Label5_2.md",
+      "x": 2240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label6_389",
+      "type": "file",
+      "file": "Label6_1.md",
+      "x": 2440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_label7_391",
+      "type": "file",
+      "file": "Label7_2.md",
+      "x": 1640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_btn_save_376",
+      "type": "file",
+      "file": "btn_save.md",
+      "x": 1840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_components_17",
+      "type": "file",
+      "file": "components_3.md",
+      "x": 2040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model",
+      "type": "file",
+      "file": "create_model_1.md",
+      "x": 2240,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer",
+      "type": "file",
+      "file": "create_model.Designer.vb.md",
+      "x": 2440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_datagrid1_378",
+      "type": "file",
+      "file": "datagrid1_2.md",
+      "x": 1640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_txt_adf_390",
+      "type": "file",
+      "file": "txt_adf_1.md",
+      "x": 1840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_txt_cism_388",
+      "type": "file",
+      "file": "txt_cism_1.md",
+      "x": 2040,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_txt_crcis_386",
+      "type": "file",
+      "file": "txt_crcis_1.md",
+      "x": 2240,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_txt_fvi_392",
+      "type": "file",
+      "file": "txt_fvi_1.md",
+      "x": 2440,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_txt_model_377",
+      "type": "file",
+      "file": "txt_model.md",
+      "x": 1640,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_model_designer_type_create_model_field_txt_sc_381",
+      "type": "file",
+      "file": "txt_sc_1.md",
+      "x": 1840,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Input Station Settings",
+      "x": 3240,
+      "y": 900,
+      "width": 1100,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_docs_known_issues_set_input_adf_into_fvi",
+      "type": "file",
+      "file": "Bug 2 set_input loads ADF into FVI box.md",
+      "x": 3260,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_guna2checkbox1_checkedchanged_2_63",
+      "type": "file",
+      "file": "Guna2CheckBox1_CheckedChanged().md",
+      "x": 3460,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_guna2panel1_paint",
+      "type": "file",
+      "file": "Guna2Panel1.Paint.md",
+      "x": 3660,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_guna2panel1_paint_2_91",
+      "type": "file",
+      "file": "Guna2Panel1_Paint().md",
+      "x": 3860,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_chk_adf_checkedchanged",
+      "type": "file",
+      "file": "chk_adf.CheckedChanged.md",
+      "x": 4060,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_chk_adf_checkedchanged_2_87",
+      "type": "file",
+      "file": "chk_adf_CheckedChanged().md",
+      "x": 3260,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_chk_cism_checkedchanged",
+      "type": "file",
+      "file": "chk_cism.CheckedChanged.md",
+      "x": 3460,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_chk_cism_checkedchanged_2_82",
+      "type": "file",
+      "file": "chk_cism_CheckedChanged().md",
+      "x": 3660,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_chk_cr_checkedchanged",
+      "type": "file",
+      "file": "chk_cr.CheckedChanged.md",
+      "x": 3860,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_chk_cr_checkedchanged_2_77",
+      "type": "file",
+      "file": "chk_cr_CheckedChanged().md",
+      "x": 4060,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_chk_fvi_checkedchanged",
+      "type": "file",
+      "file": "chk_fvi.CheckedChanged.md",
+      "x": 3260,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_chk_sc_checkedchanged",
+      "type": "file",
+      "file": "chk_sc.CheckedChanged.md",
+      "x": 3460,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_chk_sc_checkedchanged_2_72",
+      "type": "file",
+      "file": "chk_sc_CheckedChanged().md",
+      "x": 3660,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getset_0_38",
+      "type": "file",
+      "file": "getSet().md",
+      "x": 3860,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_getset_0_6",
+      "type": "file",
+      "file": "getSet()_1.md",
+      "x": 4060,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_database_db_table_input_set",
+      "type": "file",
+      "file": "input_set table.md",
+      "x": 3260,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input",
+      "type": "file",
+      "file": "set_input_1.md",
+      "x": 3460,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_type_set_input_method_set_input_load_2_2",
+      "type": "file",
+      "file": "set_input_Load().md",
+      "x": 3660,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Line Form and Shell UI",
+      "x": 4640,
+      "y": 900,
+      "width": 1100,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose()_4.md",
+      "x": 4660,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer_type_mainframe_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose()_5.md",
+      "x": 4860,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_type_system_windows_forms_form",
+      "type": "file",
+      "file": "Form.md",
+      "x": 5060,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent()_4.md",
+      "x": 5260,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer_type_mainframe_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent()_5.md",
+      "x": 5460,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_field_label1_115",
+      "type": "file",
+      "file": "Label1_2.md",
+      "x": 4660,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_field_label2_118",
+      "type": "file",
+      "file": "Label2_2.md",
+      "x": 4860,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer_type_mainframe",
+      "type": "file",
+      "file": "Mainframe_1.md",
+      "x": 5060,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer",
+      "type": "file",
+      "file": "Mainframe.designer.vb.md",
+      "x": 5260,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer_type_mainframe_field_panel1_60",
+      "type": "file",
+      "file": "Panel1.md",
+      "x": 5460,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_field_btn_save_117",
+      "type": "file",
+      "file": "btn_save_1.md",
+      "x": 4660,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_field_components_17",
+      "type": "file",
+      "file": "components_4.md",
+      "x": 4860,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer_type_mainframe_field_components_17",
+      "type": "file",
+      "file": "components_5.md",
+      "x": 5060,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line",
+      "type": "file",
+      "file": "create_line_1.md",
+      "x": 5260,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer",
+      "type": "file",
+      "file": "create_line.Designer.vb.md",
+      "x": 5460,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_field_lbl_line_119",
+      "type": "file",
+      "file": "lbl_line_2.md",
+      "x": 4660,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_mainframe_designer_type_mainframe_field_message_box_61",
+      "type": "file",
+      "file": "message_box.md",
+      "x": 4860,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_create_line_designer_type_create_line_field_txt_model_116",
+      "type": "file",
+      "file": "txt_model_1.md",
+      "x": 5060,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Navigation Menu UI",
+      "x": 6040,
+      "y": 900,
+      "width": 1100,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose()_6.md",
+      "x": 6060,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent()_6.md",
+      "x": 6260,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_inputtoolstripmenuitem_189",
+      "type": "file",
+      "file": "InputToolStripMenuItem.md",
+      "x": 6460,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_linetoolstripmenuitem_188",
+      "type": "file",
+      "file": "LineToolStripMenuItem.md",
+      "x": 6660,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_modeltoolstripmenuitem_186",
+      "type": "file",
+      "file": "ModelToolStripMenuItem.md",
+      "x": 6860,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_panel1_177",
+      "type": "file",
+      "file": "Panel1_1.md",
+      "x": 6060,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_panel2_178",
+      "type": "file",
+      "file": "Panel2.md",
+      "x": 6260,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_picturebox1_184",
+      "type": "file",
+      "file": "PictureBox1.md",
+      "x": 6460,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_recievingtoolstripmenuitem_183",
+      "type": "file",
+      "file": "RecievingToolStripMenuItem.md",
+      "x": 6660,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_stockmonitoringtoolstripmenuitem_185",
+      "type": "file",
+      "file": "StockMonitoringToolStripMenuItem.md",
+      "x": 6860,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_tooltip1_180",
+      "type": "file",
+      "file": "ToolTip1.md",
+      "x": 6060,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_viewrecordstoolstripmenuitem_187",
+      "type": "file",
+      "file": "ViewRecordsToolStripMenuItem.md",
+      "x": 6260,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_btn_menu_179",
+      "type": "file",
+      "file": "btn_menu.md",
+      "x": 6460,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_btn_profile_181",
+      "type": "file",
+      "file": "btn_profile.md",
+      "x": 6660,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_btnmenu_strip_182",
+      "type": "file",
+      "file": "btnmenu_strip.md",
+      "x": 6860,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe_field_components_17",
+      "type": "file",
+      "file": "components_6.md",
+      "x": 6060,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer_type_subframe",
+      "type": "file",
+      "file": "subframe_1.md",
+      "x": 6260,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_designer",
+      "type": "file",
+      "file": "subframe.designer.vb.md",
+      "x": 6460,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Input Settings UI Layout",
+      "x": 0,
+      "y": 1600,
+      "width": 880,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_method_dispose_1_5",
+      "type": "file",
+      "file": "Dispose().md",
+      "x": 20,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_guna2button2_219",
+      "type": "file",
+      "file": "Guna2Button2.md",
+      "x": 220,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_guna2panel1_221",
+      "type": "file",
+      "file": "Guna2Panel1.md",
+      "x": 420,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_guna2panel2_222",
+      "type": "file",
+      "file": "Guna2Panel2.md",
+      "x": 620,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_method_initializecomponent_0_22",
+      "type": "file",
+      "file": "InitializeComponent().md",
+      "x": 20,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_adf_223",
+      "type": "file",
+      "file": "chk_adf.md",
+      "x": 220,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_cism_215",
+      "type": "file",
+      "file": "chk_cism.md",
+      "x": 420,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_cr_216",
+      "type": "file",
+      "file": "chk_cr.md",
+      "x": 620,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_fvi_220",
+      "type": "file",
+      "file": "chk_fvi.md",
+      "x": 20,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_sc_217",
+      "type": "file",
+      "file": "chk_sc.md",
+      "x": 220,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_components_17",
+      "type": "file",
+      "file": "components.md",
+      "x": 420,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input_field_lbl_line_218",
+      "type": "file",
+      "file": "lbl_line.md",
+      "x": 620,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "type": "file",
+      "file": "set_input.md",
+      "x": 20,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_set_input_designer",
+      "type": "file",
+      "file": "set_input.Designer.vb.md",
+      "x": 220,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Menu Navigation Handlers",
+      "x": 1620,
+      "y": 1600,
+      "width": 880,
+      "height": 520,
+      "color": "6"
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe_method_guna2button1_click_2_1",
+      "type": "file",
+      "file": "Guna2Button1_Click().md",
+      "x": 1640,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_inputtoolstripmenuitem_click",
+      "type": "file",
+      "file": "InputToolStripMenuItem.Click.md",
+      "x": 1840,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe_method_inputtoolstripmenuitem_click_2_29",
+      "type": "file",
+      "file": "InputToolStripMenuItem_Click().md",
+      "x": 2040,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_linetoolstripmenuitem_click",
+      "type": "file",
+      "file": "LineToolStripMenuItem.Click.md",
+      "x": 2240,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe_method_linetoolstripmenuitem_click_2_24",
+      "type": "file",
+      "file": "LineToolStripMenuItem_Click().md",
+      "x": 1640,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_modeltoolstripmenuitem_click",
+      "type": "file",
+      "file": "ModelToolStripMenuItem.Click.md",
+      "x": 1840,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe_method_modeltoolstripmenuitem_click_2_11",
+      "type": "file",
+      "file": "ModelToolStripMenuItem_Click().md",
+      "x": 2040,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_recievingtoolstripmenuitem_click",
+      "type": "file",
+      "file": "RecievingToolStripMenuItem.Click.md",
+      "x": 2240,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe_method_recievingtoolstripmenuitem_click_2_16",
+      "type": "file",
+      "file": "RecievingToolStripMenuItem_Click().md",
+      "x": 1640,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_viewrecordstoolstripmenuitem_click",
+      "type": "file",
+      "file": "ViewRecordsToolStripMenuItem.Click.md",
+      "x": 1840,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe_method_viewrecordstoolstripmenuitem_click_2_20",
+      "type": "file",
+      "file": "ViewRecordsToolStripMenuItem_Click().md",
+      "x": 2040,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_event_btn_menu_click",
+      "type": "file",
+      "file": "btn_menu.Click.md",
+      "x": 2240,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe_type_subframe",
+      "type": "file",
+      "file": "subframe.md",
+      "x": 1640,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_subframe",
+      "type": "file",
+      "file": "subframe.vb.md",
+      "x": 1840,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Embedded Resources and Sounds",
+      "x": 3240,
+      "y": 1600,
+      "width": 880,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_assemblyinfo",
+      "type": "file",
+      "file": "AssemblyInfo.vb.md",
+      "x": 3260,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources_property_culture_52",
+      "type": "file",
+      "file": "Culture.md",
+      "x": 3460,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_namespace_my_resources",
+      "type": "file",
+      "file": "My.Resources.md",
+      "x": 3660,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources_property_resourcemanager_37",
+      "type": "file",
+      "file": "ResourceManager.md",
+      "x": 3860,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources",
+      "type": "file",
+      "file": "Resources.md",
+      "x": 3260,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer",
+      "type": "file",
+      "file": "Resources.Designer.vb.md",
+      "x": 3460,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_system",
+      "type": "file",
+      "file": "System.md",
+      "x": 3660,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_system_reflection",
+      "type": "file",
+      "file": "System.Reflection.md",
+      "x": 3860,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vbnet_namespace_system_runtime_interopservices",
+      "type": "file",
+      "file": "System.Runtime.InteropServices.md",
+      "x": 3260,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources_property_duplicate_65",
+      "type": "file",
+      "file": "duplicate.md",
+      "x": 3460,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources_property_errorsound_74",
+      "type": "file",
+      "file": "errorsound.md",
+      "x": 3660,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources_field_resourceculture_32",
+      "type": "file",
+      "file": "resourceCulture.md",
+      "x": 3860,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_resources_designer_type_my_resources_resources_field_resourceman_30",
+      "type": "file",
+      "file": "resourceMan.md",
+      "x": 3260,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "My Settings Plumbing",
+      "x": 4640,
+      "y": 1600,
+      "width": 880,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_vbnet_type_global_system_configuration_applicationsettingsbase",
+      "type": "file",
+      "file": "ApplicationSettingsBase.md",
+      "x": 4660,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_method_autosavesettings_2_30",
+      "type": "file",
+      "file": "AutoSaveSettings().md",
+      "x": 4860,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_namespace_my",
+      "type": "file",
+      "file": "My.md",
+      "x": 5060,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "type": "file",
+      "file": "MySettings.md",
+      "x": 5260,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettingsproperty",
+      "type": "file",
+      "file": "MySettingsProperty.md",
+      "x": 4660,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettingsproperty_property_settings_65",
+      "type": "file",
+      "file": "Settings.md",
+      "x": 4860,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer",
+      "type": "file",
+      "file": "Settings.Designer.vb.md",
+      "x": 5060,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_property_default_39",
+      "type": "file",
+      "file": "Default.md",
+      "x": 5260,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_addedhandler_26",
+      "type": "file",
+      "file": "addedHandler.md",
+      "x": 4660,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_addedhandlerlockobject_28",
+      "type": "file",
+      "file": "addedHandlerLockObject.md",
+      "x": 4860,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_defaultinstance_22",
+      "type": "file",
+      "file": "defaultInstance.md",
+      "x": 5060,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Obsidian Vault Docs",
+      "x": 6040,
+      "y": 1600,
+      "width": 880,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "n_docs_architecture",
+      "type": "file",
+      "file": "Architecture.md",
+      "x": 6060,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_build_and_deploy",
+      "type": "file",
+      "file": "Build and Deploy.md",
+      "x": 6260,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude",
+      "type": "file",
+      "file": "CLAUDE.md",
+      "x": 6460,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_database_schema",
+      "type": "file",
+      "file": "Database Schema.md",
+      "x": 6660,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_graphify_workflow",
+      "type": "file",
+      "file": "Graphify Workflow.md",
+      "x": 6060,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_index",
+      "type": "file",
+      "file": "INDEX (vault index).md",
+      "x": 6260,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_known_issues",
+      "type": "file",
+      "file": "Known Issues.md",
+      "x": 6460,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_scan_workflow",
+      "type": "file",
+      "file": "Scan Workflow.md",
+      "x": 6660,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_screens",
+      "type": "file",
+      "file": "Screens.md",
+      "x": 6060,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_modules",
+      "type": "file",
+      "file": "Shared Modules.md",
+      "x": 6260,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "App Startup",
+      "x": 0,
+      "y": 2200,
+      "width": 660,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_application_designer",
+      "type": "file",
+      "file": "Application.Designer.vb.md",
+      "x": 20,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_application_designer_namespace_my",
+      "type": "file",
+      "file": "My_1.md",
+      "x": 220,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication",
+      "type": "file",
+      "file": "MyApplication.md",
+      "x": 420,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication_constructor_new_0_23",
+      "type": "file",
+      "file": "New().md",
+      "x": 20,
+      "y": 2360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication_method_oncreatemainform_0_32",
+      "type": "file",
+      "file": "OnCreateMainForm().md",
+      "x": 220,
+      "y": 2360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "label": "Solution File",
+      "x": 1620,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_monitoring_sln_barcode_monitoring_barcode_monitoring",
+      "type": "file",
+      "file": "Barcode Monitoring.sln.md",
+      "x": 1640,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g17",
+      "type": "group",
+      "label": "Project File",
+      "x": 3240,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_barcode_monitoring_barcode_monitoring_vbproj_barcode_monitoring_barcode_monitoring",
+      "type": "file",
+      "file": "Barcode Monitoring.vbproj.md",
+      "x": 3260,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g18",
+      "type": "group",
+      "label": "Unused EF6 Packages",
+      "x": 4640,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_known_issues_ef6_unused",
+      "type": "file",
+      "file": "EF6 packages referenced but unused.md",
+      "x": 4660,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_barcode_monitoring_create_line_barcode_monitoring_create_line_type_create_line",
+      "fromNode": "n_barcode_monitoring_create_line",
+      "toNode": "n_barcode_monitoring_create_line_type_create_line",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_barcode_monitoring_create_line_type_create_line_method_create_model_load_2_9",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line",
+      "toNode": "n_barcode_monitoring_create_line_type_create_line_method_create_model_load_2_9",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line",
+      "toNode": "n_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line",
+      "toNode": "n_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_barcode_monitoring_dbconn_getline",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line",
+      "toNode": "n_barcode_monitoring_dbconn_getline",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3",
+      "toNode": "n_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3_vbnet_event_btn_save_click",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line_method_btn_save_click_2_3",
+      "toNode": "n_vbnet_event_btn_save_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_sql_injection_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "fromNode": "n_docs_known_issues_sql_injection",
+      "toNode": "n_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "label": "affects [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_line_type_create_line_method_updateline_1_17_database_db_table_line",
+      "fromNode": "n_barcode_monitoring_create_line_type_create_line_method_updateline_1_17",
+      "toNode": "n_database_db_table_line",
+      "label": "writes [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2_vbnet_event_btn_save_click",
+      "fromNode": "n_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2",
+      "toNode": "n_vbnet_event_btn_save_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_model_type_create_model_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2",
+      "fromNode": "n_barcode_monitoring_create_model_type_create_model",
+      "toNode": "n_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2_barcode_monitoring_dbconn_insertdata",
+      "fromNode": "n_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2",
+      "toNode": "n_barcode_monitoring_dbconn_insertdata",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2_barcode_monitoring_dbconn_reload",
+      "fromNode": "n_barcode_monitoring_create_model_type_create_model_method_btn_save_click_2_2",
+      "toNode": "n_barcode_monitoring_dbconn_reload",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_framemodules_type_framemodules_barcode_monitoring_framemodules_type_framemodules_method_display_inmain_1_2",
+      "fromNode": "n_barcode_monitoring_framemodules_type_framemodules",
+      "toNode": "n_barcode_monitoring_framemodules_type_framemodules_method_display_inmain_1_2",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4_barcode_monitoring_framemodules_type_framemodules_method_display_inmain_1_2",
+      "fromNode": "n_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4",
+      "toNode": "n_barcode_monitoring_framemodules_type_framemodules_method_display_inmain_1_2",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_framemodules_type_framemodules_barcode_monitoring_framemodules_type_framemodules_method_display_insub_1_15",
+      "fromNode": "n_barcode_monitoring_framemodules_type_framemodules",
+      "toNode": "n_barcode_monitoring_framemodules_type_framemodules_method_display_insub_1_15",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_mainframe_barcode_monitoring_mainframe_type_mainframe",
+      "fromNode": "n_barcode_monitoring_mainframe",
+      "toNode": "n_barcode_monitoring_mainframe_type_mainframe",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_mainframe_type_mainframe_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4",
+      "fromNode": "n_barcode_monitoring_mainframe_type_mainframe",
+      "toNode": "n_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4_vbnet_event_mybase_load",
+      "fromNode": "n_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4",
+      "toNode": "n_vbnet_event_mybase_load",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4_barcode_monitoring_dbconn_upgradetimeformat",
+      "fromNode": "n_barcode_monitoring_mainframe_type_mainframe_method_mainframe_load_2_4",
+      "toNode": "n_barcode_monitoring_dbconn_upgradetimeformat",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_showsnackbar_1_20",
+      "fromNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3",
+      "toNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_showsnackbar_1_20",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_snackbarmodule_type_snackbarmodule_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3",
+      "fromNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule",
+      "toNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_dbconn_reload_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3",
+      "fromNode": "n_barcode_monitoring_dbconn_reload",
+      "toNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_show_error_2_3",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_snackbarmodule_type_snackbarmodule_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_showsnackbar_1_20",
+      "fromNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule",
+      "toNode": "n_barcode_monitoring_snackbarmodule_type_snackbarmodule_method_showsnackbar_1_20",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "fromNode": "n_barcode_monitoring_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadsql_3",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadsql_3",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadfvi_5",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadfvi_5",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadadf_6",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_field_reloadadf_6",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_cleartext_0_211",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cleartext_0_211",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_sc_textchanged_2_239",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_sc_textchanged_2_239",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_getset_0_38",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getset_0_38",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_barcode_monitoring_dbconn_reload",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_dbconn_reload",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_architecture_form_default_instances_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "fromNode": "n_docs_architecture_form_default_instances",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_scan_workflow_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "fromNode": "n_docs_scan_workflow",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29_barcode_monitoring_barcode_scan_type_barcode_scan_method_getset_0_38",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getset_0_38",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29_vbnet_event_mybase_load",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "toNode": "n_vbnet_event_mybase_load",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29_barcode_monitoring_dbconn_getline",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_barcode_scan_load_2_29",
+      "toNode": "n_barcode_monitoring_dbconn_getline",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_checkcode_short_input_crash_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_docs_known_issues_checkcode_short_input_crash",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "affects [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_sql_injection_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_docs_known_issues_sql_injection",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "affects [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_scan_workflow_prefix_validation_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "fromNode": "n_docs_scan_workflow_prefix_validation",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82_database_db_table_model",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_checkcode_3_82",
+      "toNode": "n_database_db_table_model",
+      "label": "reads [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144_barcode_monitoring_barcode_scan_type_barcode_scan_method_cleartext_0_211",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cleartext_0_211",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78_vbnet_event_cmb_model_click",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78",
+      "toNode": "n_vbnet_event_cmb_model_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78_barcode_monitoring_dbconn_cmb_display",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_click_2_78",
+      "toNode": "n_barcode_monitoring_dbconn_cmb_display",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70_vbnet_event_cmb_model_selectedindexchanged",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70",
+      "toNode": "n_vbnet_event_cmb_model_selectedindexchanged",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70_vbnet_event_txt_name_textchanged",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_cmb_model_selectedindexchanged_2_70",
+      "toNode": "n_vbnet_event_txt_name_textchanged",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_scan_workflow_shift_logic_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "fromNode": "n_docs_scan_workflow_shift_logic",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_night_shift_date_split_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "fromNode": "n_docs_known_issues_night_shift_date_split",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_getshift_0_7",
+      "label": "affects [INFERRED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144_barcode_monitoring_dbconn_insertbarcode",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "toNode": "n_barcode_monitoring_dbconn_insertbarcode",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144_barcode_monitoring_dbconn_reload",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "toNode": "n_barcode_monitoring_dbconn_reload",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_scan_workflow_multi_serial_chain_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "fromNode": "n_docs_scan_workflow_multi_serial_chain",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_adf_0_144",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_cism_0_131",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_crcis_0_119",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_process_sc_0_106",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64_vbnet_event_timer1_tick",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_timer1_tick_2_64",
+      "toNode": "n_vbnet_event_timer1_tick",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_totaltoday_0_19",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199_vbnet_event_txt_adf_keydown",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_adf_keydown_2_199",
+      "toNode": "n_vbnet_event_txt_adf_keydown",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189_vbnet_event_txt_cism_keydown",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_cism_keydown_2_189",
+      "toNode": "n_vbnet_event_txt_cism_keydown",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178_vbnet_event_txt_crcis_keydown",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_crcis_keydown_2_178",
+      "toNode": "n_vbnet_event_txt_crcis_keydown",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219_vbnet_event_txt_fvi_keydown",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "toNode": "n_vbnet_event_txt_fvi_keydown",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219_barcode_monitoring_dbconn_insertbarcodefvi",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "toNode": "n_barcode_monitoring_dbconn_insertbarcodefvi",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_scan_workflow_fvi_only_mode_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "fromNode": "n_docs_scan_workflow_fvi_only_mode",
+      "toNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_fvi_keydown_2_219",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164_vbnet_event_txt_sc_keydown",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_model_keydown_2_164",
+      "toNode": "n_vbnet_event_txt_sc_keydown",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_sc_textchanged_2_239_vbnet_event_txt_sc_textchanged",
+      "fromNode": "n_barcode_monitoring_barcode_scan_type_barcode_scan_method_txt_sc_textchanged_2_239",
+      "toNode": "n_vbnet_event_txt_sc_textchanged",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_barcode_monitoring_set_input_designer_type_set_input",
+      "fromNode": "n_barcode_monitoring_set_input_designer",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_components_17",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_components_17",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_chk_cism_215",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_cism_215",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_chk_cr_216",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_cr_216",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_chk_sc_217",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_sc_217",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_lbl_line_218",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_lbl_line_218",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_guna2button2_219",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_guna2button2_219",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_chk_fvi_220",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_fvi_220",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_guna2panel1_221",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_guna2panel1_221",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_guna2panel2_222",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_guna2panel2_222",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_field_chk_adf_223",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_field_chk_adf_223",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_vbnet_type_system_windows_forms_form",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_vbnet_type_system_windows_forms_form",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_method_initializecomponent_0_22",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_method_initializecomponent_0_22",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_designer_type_set_input_barcode_monitoring_set_input_designer_type_set_input_method_dispose_1_5",
+      "fromNode": "n_barcode_monitoring_set_input_designer_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_designer_type_set_input_method_dispose_1_5",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_barcode_monitoring_subframe_type_subframe",
+      "fromNode": "n_barcode_monitoring_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_barcode_monitoring_subframe_type_subframe_method_modeltoolstripmenuitem_click_2_11",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe_method_modeltoolstripmenuitem_click_2_11",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_barcode_monitoring_subframe_type_subframe_method_recievingtoolstripmenuitem_click_2_16",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe_method_recievingtoolstripmenuitem_click_2_16",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_barcode_monitoring_subframe_type_subframe_method_guna2button1_click_2_1",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe_method_guna2button1_click_2_1",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_barcode_monitoring_subframe_type_subframe_method_viewrecordstoolstripmenuitem_click_2_20",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe_method_viewrecordstoolstripmenuitem_click_2_20",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_barcode_monitoring_subframe_type_subframe_method_linetoolstripmenuitem_click_2_24",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe_method_linetoolstripmenuitem_click_2_24",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_barcode_monitoring_subframe_type_subframe_method_inputtoolstripmenuitem_click_2_29",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe",
+      "toNode": "n_barcode_monitoring_subframe_type_subframe_method_inputtoolstripmenuitem_click_2_29",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_method_guna2button1_click_2_1_vbnet_event_btn_menu_click",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe_method_guna2button1_click_2_1",
+      "toNode": "n_vbnet_event_btn_menu_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_method_inputtoolstripmenuitem_click_2_29_vbnet_event_inputtoolstripmenuitem_click",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe_method_inputtoolstripmenuitem_click_2_29",
+      "toNode": "n_vbnet_event_inputtoolstripmenuitem_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_method_linetoolstripmenuitem_click_2_24_vbnet_event_linetoolstripmenuitem_click",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe_method_linetoolstripmenuitem_click_2_24",
+      "toNode": "n_vbnet_event_linetoolstripmenuitem_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_method_modeltoolstripmenuitem_click_2_11_vbnet_event_modeltoolstripmenuitem_click",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe_method_modeltoolstripmenuitem_click_2_11",
+      "toNode": "n_vbnet_event_modeltoolstripmenuitem_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_method_recievingtoolstripmenuitem_click_2_16_vbnet_event_recievingtoolstripmenuitem_click",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe_method_recievingtoolstripmenuitem_click_2_16",
+      "toNode": "n_vbnet_event_recievingtoolstripmenuitem_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_subframe_type_subframe_method_viewrecordstoolstripmenuitem_click_2_20_vbnet_event_viewrecordstoolstripmenuitem_click",
+      "fromNode": "n_barcode_monitoring_subframe_type_subframe_method_viewrecordstoolstripmenuitem_click_2_20",
+      "toNode": "n_vbnet_event_viewrecordstoolstripmenuitem_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_namespace_my_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_namespace_my",
+      "toNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_type_my_mysettings_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_defaultinstance_22",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "toNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_defaultinstance_22",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_type_my_mysettings_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_addedhandler_26",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "toNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_addedhandler_26",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_type_my_mysettings_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_addedhandlerlockobject_28",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "toNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_field_addedhandlerlockobject_28",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_type_my_mysettings_barcode_monitoring_my_project_settings_designer_type_my_mysettings_property_default_39",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "toNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_property_default_39",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_type_my_mysettings_vbnet_type_global_system_configuration_applicationsettingsbase",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "toNode": "n_vbnet_type_global_system_configuration_applicationsettingsbase",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_settings_designer_type_my_mysettings_barcode_monitoring_my_project_settings_designer_type_my_mysettings_method_autosavesettings_2_30",
+      "fromNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings",
+      "toNode": "n_barcode_monitoring_my_project_settings_designer_type_my_mysettings_method_autosavesettings_2_30",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_application_designer_namespace_my_barcode_monitoring_my_project_application_designer_type_my_myapplication",
+      "fromNode": "n_barcode_monitoring_my_project_application_designer_namespace_my",
+      "toNode": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_application_designer_type_my_myapplication_barcode_monitoring_my_project_application_designer_type_my_myapplication_constructor_new_0_23",
+      "fromNode": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication",
+      "toNode": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication_constructor_new_0_23",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_my_project_application_designer_type_my_myapplication_barcode_monitoring_my_project_application_designer_type_my_myapplication_method_oncreatemainform_0_32",
+      "fromNode": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication",
+      "toNode": "n_barcode_monitoring_my_project_application_designer_type_my_myapplication_method_oncreatemainform_0_32",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_components_17",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_components_17",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2panel1_484",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2panel1_484",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_datagrid1_485",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_datagrid1_485",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2panel2_486",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2panel2_486",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_cmb_model_487",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_cmb_model_487",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_sc_488",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_sc_488",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label4_489",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label4_489",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_cism_490",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_cism_490",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_crcis_491",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_crcis_491",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_shift_492",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_shift_492",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_date_493",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_date_493",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_timer1_494",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_timer1_494",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label12_495",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label12_495",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label5_496",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label5_496",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_name_497",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_name_497",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2separator1_498",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_guna2separator1_498",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_line_499",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_line_499",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_panel_chk_500",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_panel_chk_500",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label3_501",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label3_501",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label2_502",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label2_502",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label1_503",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label1_503",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label6_504",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label6_504",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_fvi_505",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_fvi_505",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_adf_506",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_txt_adf_506",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label7_507",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_label7_507",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_total_508",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_field_lbl_total_508",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_vbnet_type_system_windows_forms_form",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_vbnet_type_system_windows_forms_form",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_method_initializecomponent_0_22",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_method_initializecomponent_0_22",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_barcode_scan_designer_type_barcode_scan_barcode_monitoring_barcode_scan_designer_type_barcode_scan_method_dispose_1_5",
+      "fromNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan",
+      "toNode": "n_barcode_monitoring_barcode_scan_designer_type_barcode_scan_method_dispose_1_5",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_type_set_input_method_guna2button2_click_2_36_vbnet_event_guna2button2_click",
+      "fromNode": "n_barcode_monitoring_set_input_type_set_input_method_guna2button2_click_2_36",
+      "toNode": "n_vbnet_event_guna2button2_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_set_input_type_set_input_barcode_monitoring_set_input_type_set_input_method_guna2button2_click_2_36",
+      "fromNode": "n_barcode_monitoring_set_input_type_set_input",
+      "toNode": "n_barcode_monitoring_set_input_type_set_input_method_guna2button2_click_2_36",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_barcode_monitoring_viewrecords_type_viewrecords",
+      "fromNode": "n_barcode_monitoring_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_field_rad_2",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_field_rad_2",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button1_click_2_111",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button1_click_2_111",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_initializesavebutton_0_115",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_initializesavebutton_0_115",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_savejudgementchanges_0_130",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_savejudgementchanges_0_130",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_updatejudgementindatabase_4_162",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_updatejudgementindatabase_4_162",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton3_checkedchanged_2_182",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton3_checkedchanged_2_182",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton1_checkedchanged_2_186",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton1_checkedchanged_2_186",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton2_checkedchanged_2_190",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton2_checkedchanged_2_190",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_viewrecords_load_2_3",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_viewrecords_load_2_3",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_barcode_monitoring_dbconn_reload",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "toNode": "n_barcode_monitoring_dbconn_reload",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_architecture_form_default_instances_barcode_monitoring_viewrecords_type_viewrecords",
+      "fromNode": "n_docs_architecture_form_default_instances",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_adf_search_wrong_column_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "fromNode": "n_docs_known_issues_adf_search_wrong_column",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "label": "affects [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44_database_db_table_barcodes_adf",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_adf_0_44",
+      "toNode": "n_database_db_table_barcodes_adf",
+      "label": "reads [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124_barcode_monitoring_viewrecords_type_viewrecords_method_savejudgementchanges_0_130",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_savejudgementchanges_0_130",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124_vbnet_event_btnsavechanges_click",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_btnsavechanges_click_2_124",
+      "toNode": "n_vbnet_event_btnsavechanges_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29_database_db_table_barcodes_fvi",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "toNode": "n_database_db_table_barcodes_fvi",
+      "label": "reads [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_sql_injection_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "fromNode": "n_docs_known_issues_sql_injection",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_fvi_0_29",
+      "label": "affects [INFERRED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7_vbnet_event_guna2button2_click",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2button2_click_2_7",
+      "toNode": "n_vbnet_event_guna2button2_click",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton1_checkedchanged_2_186_vbnet_event_rad_fvi_checkedchanged",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton1_checkedchanged_2_186",
+      "toNode": "n_vbnet_event_rad_fvi_checkedchanged",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_judgement_wrong_table_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton2_checkedchanged_2_190",
+      "fromNode": "n_docs_known_issues_judgement_wrong_table",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton2_checkedchanged_2_190",
+      "label": "affects [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton3_checkedchanged_2_182_vbnet_event_rad_sc_checkedchanged",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_guna2radiobutton3_checkedchanged_2_182",
+      "toNode": "n_vbnet_event_rad_sc_checkedchanged",
+      "label": "handles [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_setupjudgementcombobox_0_58",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_others_search_columns_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "fromNode": "n_docs_known_issues_others_search_columns",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "label": "affects [EXTRACTED]"
+    },
+    {
+      "id": "e_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16_database_db_table_barcodes",
+      "fromNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "toNode": "n_database_db_table_barcodes",
+      "label": "reads [EXTRACTED]"
+    },
+    {
+      "id": "e_docs_known_issues_sql_injection_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "fromNode": "n_docs_known_issues_sql_injection",
+      "toNode": "n_barcode_monitoring_viewrecords_type_viewrecords_method_others_0_16",
+      "label": "affects [INFERRED]"
+    }
+  ]
+}
